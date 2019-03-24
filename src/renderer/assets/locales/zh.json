@@ -1,7 +1,7 @@
 {
   "$notify": {
     "texts": {
-      "aniListRefreshRateUpdated": "刷新间隔已成功修改至 {refreshRate} 分钟！"
+      "aniListRefreshRateUpdated": "刷新间隔已成功更新为 {refreshRate} 分钟！"
     },
     "titles": {
       "success": "成功了！"
