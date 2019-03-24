@@ -1,7 +1,7 @@
 {
   "$notify": {
     "texts": {
-      "aniListRefreshRateUpdated": "成功将刷新间隔调整至 {refreshRate} 分钟！"
+      "aniListRefreshRateUpdated": "刷新间隔已成功修改至 {refreshRate} 分钟！"
     },
     "titles": {
       "success": "成功了！"
@@ -13,11 +13,11 @@
       "noResultsText": "无搜索结果",
       "pageText": "第 {0}-{1} 条，共 {2} 条",
       "prevPage": "上一页",
-      "rowsPerPageAll": "All",
-      "rowsPerPageText": "Items per page"
+      "rowsPerPageAll": "所有",
+      "rowsPerPageText": "每页条目"
     },
     "dataTable": {
-      "rowsPerPageText": "Items per page"
+      "rowsPerPageText": "每页条目"
     },
     "noDataText": "无数据"
   },
@@ -31,7 +31,7 @@
       "repeating": "回顾中"
     },
     "mediaInformation": {
-      "cancelled": "已中止",
+      "cancelled": "已中止放送",
       "currentlyAiring": "正在放送",
       "finished": "放送完毕",
       "finishedAiring": "放送完毕",
@@ -54,10 +54,10 @@
       "close": "关闭",
       "delete": "删除",
       "edit": "编辑",
-      "login": "登入",
-      "logout": "登出",
+      "login": "登录",
+      "logout": "注销",
       "refreshAniList": "刷新 AniList",
-      "refreshMAL": "刷新 MAL",
+      "refreshMAL": "刷新 MyAnimeList",
       "refreshTorrents": "刷新 Torrent",
       "remove": "删除",
       "reset": "重置",
@@ -91,8 +91,8 @@
     },
     "error": {
       "messages": {
-        "notFoundOrAdultContent": "If this is a medium considered adult content, please activate '18+ Content' in the settings on AniList.co!",
-        "numberInsufficient": "This number is not sufficient!"
+        "notFoundOrAdultContent": "如果这是一个含有成人内容的作品，请前往 AniList.co 网站的个人设置中，勾选启用'18+ Content'！",
+        "numberInsufficient": "该数值不在允许值范围内！"
       },
       "titles": {
         "fatalError": "致命错误！",
@@ -100,7 +100,7 @@
       }
     },
     "informationModal": {
-      "adultContent": "This media is considered adult content! Your discretion is advised!",
+      "adultContent": "该作品含有成人内容！建议您自行判断！",
       "airingTime": "放送时间",
       "anime": "动画",
       "clear": "星数归零",
@@ -115,13 +115,13 @@
         "text": "删除成功！",
         "title": "删除！"
       },
-      "description": "说明",
+      "description": "简介",
       "doYouReallyWantToDelete": "你真的确定要把 {title} 从你的列表中删除？",
       "dropdownPlaceholder": "请选择……",
       "englishName": "英文名",
       "episodes": "总集数",
       "errorResponseTitle": "更新失败！",
-      "inputRequired": "请不要留空！",
+      "inputRequired": "必填，请不要留空！",
       "japaneseName": "日文名",
       "manga": "漫画",
       "noEnglishName": "无英文名",
@@ -192,7 +192,7 @@
           "HEADER_SEASON": "季度",
           "HEADER_TITLE": "标题"
         },
-        "tableHeadersError": "最多只能添加4个额外的列！",
+        "tableHeadersError": "最多只能添加 4 个额外的列！",
         "tableHeadersLabel": "向表格中添加额外的列"
       },
       "appSettings": {
@@ -213,7 +213,7 @@
         "credentialsCouldNotBeVerifiedOrTooManyLoginAttempts": "<p>你的登录信息有误，无法通过验证。</p><p>如果你确定你的登录信息准确无误，那么可能是因为你进行了过多次的登录尝试！</p><p>如果你遇到的情况属于后者，请等1~6个小时后再进行尝试……</p>",
         "credentialsWrongOrTooManyLoginAttempts": "登录信息错误或登录尝试次数过多！",
         "enterCredentials": "请输入登录信息以用于登录。",
-        "loggedInAs": "登录为",
+        "loggedInAs": "已登录为",
         "loginData": "登录数据",
         "malRefreshRate": "刷新间隔（分钟）",
         "noCredentials": "没有登录信息！",
