@@ -1,7 +1,7 @@
 {
   "$notify": {
     "texts": {
-      "aniListRefreshRateUpdated": "Refresh rate successfully updated to {refreshRate} minutes!"
+      "aniListRefreshRateUpdated": "成功将刷新间隔调整至 {refreshRate} 分钟！"
     },
     "titles": {
       "success": "成功了！"
@@ -11,7 +11,7 @@
     "dataIterator": {
       "nextPage": "下一页",
       "noResultsText": "无搜索结果",
-      "pageText": "{0}-{1} of {2}",
+      "pageText": "第 {0}-{1} 条，共 {2} 条",
       "prevPage": "上一页",
       "rowsPerPageAll": "All",
       "rowsPerPageText": "Items per page"
@@ -19,7 +19,7 @@
     "dataTable": {
       "rowsPerPageText": "Items per page"
     },
-    "noDataText": "No data"
+    "noDataText": "无数据"
   },
   "aniList": {
     "listStatus": {
@@ -62,12 +62,12 @@
       "remove": "删除",
       "reset": "重置",
       "save": "保存",
-      "select": "Select",
-      "submitDelete": "Submit Delete!"
+      "select": "选择",
+      "submitDelete": "提交删除！"
     },
     "constants": {
-      "airingFinished": "Airing finished",
-      "airingIn": "Episode {episode} airing {time}",
+      "airingFinished": "放送完毕",
+      "airingIn": "第 {episode} 集 将于 {time} 放送",
       "animeTitle": "动画标题",
       "autumn": "秋",
       "dateFormat": "YYYY/M/D",
@@ -95,8 +95,8 @@
         "numberInsufficient": "This number is not sufficient!"
       },
       "titles": {
-        "fatalError": "Fatal error!",
-        "notFound": "Not found!"
+        "fatalError": "致命错误！",
+        "notFound": "未找到！"
       }
     },
     "informationModal": {
@@ -117,11 +117,11 @@
       },
       "description": "说明",
       "doYouReallyWantToDelete": "你真的确定要把 {title} 从你的列表中删除？",
-      "dropdownPlaceholder": "请选择…",
+      "dropdownPlaceholder": "请选择……",
       "englishName": "英文名",
       "episodes": "总集数",
       "errorResponseTitle": "更新失败！",
-      "inputRequired": "Input required!",
+      "inputRequired": "请不要留空！",
       "japaneseName": "日文名",
       "manga": "漫画",
       "noEnglishName": "无英文名",
@@ -130,7 +130,7 @@
       "ownRating": "个人评分",
       "ownStatus": "个人状态",
       "rating": "评分",
-      "ratingError": "Rating is under or over the expected values!",
+      "ratingError": "评分不在允许值范围内！",
       "seriesInformation": "剧集信息",
       "seriesStatus": "剧集状态",
       "sinceDate": "从 {date} 开始",
@@ -153,7 +153,7 @@
     },
     "menu": {
       "listStatus": {
-        "home": "Home",
+        "home": "主页",
         "completed": "已看完 ({amount})",
         "dropped": "已弃坑 ({amount})",
         "onHold": "搁置中 ({amount})",
@@ -162,7 +162,7 @@
         "watching": "观看中 ({amount})"
       },
       "search": {
-        "headline": "Search Window",
+        "headline": "搜索窗口",
         "noResults": "未找到结果",
         "notInList": "不在你的列表中",
         "search": "搜索……"
@@ -181,19 +181,19 @@
       "aniList": {
         "accountSettings": "账户设置",
         "aniListRefreshRate": "刷新间隔（分钟）",
-        "hintTableHeaders": "Choose the columns that should be displayed in the table.",
+        "hintTableHeaders": "请选择需要在表格中显示的列。",
         "loggedInAs": "登录为",
-        "minutes": "分",
+        "minutes": "分钟",
         "tableHeaders": {
-          "HEADER_GENRE": "Genre",
+          "HEADER_GENRE": "类型",
           "HEADER_LASTUPDATED": "最后更新",
           "HEADER_PROGRESS": "进度",
           "HEADER_SCORE": "分数",
           "HEADER_SEASON": "季度",
           "HEADER_TITLE": "标题"
         },
-        "tableHeadersError": "Only up to four extra columns are registerable!",
-        "tableHeadersLabel": "Add extra columns to the table"
+        "tableHeadersError": "最多只能添加4个额外的列！",
+        "tableHeadersLabel": "向表格中添加额外的列"
       },
       "appSettings": {
         "changeLanguage": "更改语言",
@@ -222,7 +222,7 @@
       },
       "restoreFactoryData": {
         "confirmRestoration": "是的，我想要恢复出厂数据！",
-        "pressWithinToRestore": "{seconds} second(s) until the button resets back.",
+        "pressWithinToRestore": "{seconds} 秒后按钮将自动复原。",
         "restore": "恢复出厂数据"
       },
       "title": "设置"
