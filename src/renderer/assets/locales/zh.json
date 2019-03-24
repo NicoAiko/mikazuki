@@ -182,7 +182,7 @@
         "accountSettings": "账户设置",
         "aniListRefreshRate": "刷新间隔（分钟）",
         "hintTableHeaders": "请选择需要在表格中显示的列。",
-        "loggedInAs": "登录为",
+        "loggedInAs": "已登录为",
         "minutes": "分钟",
         "tableHeaders": {
           "HEADER_GENRE": "类型",
