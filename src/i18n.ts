@@ -23,4 +23,39 @@ export const validLanguageCodes: string[] = ['ar', 'de', 'en', 'es_MX', 'fr', 'i
 export const i18n = new VueI18n({
   fallbackLocale: process.env.VUE_APP_I18N_FALLBACK_LOCALE || 'en',
   messages: loadLocaleMessages(),
+  pluralizationRules: {
+    ar(choice: number, choicesLength: number): number {
+      if (choice === 0) {
+        return 0;
+      }
+
+      if (choicesLength === 3) {
+        if (choice === 1) {
+          return 1;
+        }
+
+        return 2;
+      } else if (choicesLength === 2) {
+        if (choice === 1) {
+          return 0;
+        }
+
+        return 1;
+      }
+
+      if (choice > 0 && choice < 3) {
+        return choice;
+      }
+
+      if (choice >= 3 && choice <= 10) {
+        return 3;
+      }
+
+      if (choice > 10) {
+        return 4;
+      }
+
+      return 0;
+    },
+  },
 });

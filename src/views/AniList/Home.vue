@@ -69,9 +69,9 @@
                           v-for="(item, index) in animeSliderLabels"
                           :key="`anime_activity_slider_${index}`"
                           :class="{
-                            'text-left': index === 0,
+                            'text-left': !$vuetify.rtl ? index === 0 : index === 2,
                             'text-center': index === 1,
-                            'text-right': index === 2,
+                            'text-right': !$vuetify.rtl ? index === 2 : index === 0,
                           }"
                           class="my-0 py-0"
                         >
@@ -125,9 +125,9 @@
                           v-for="(item, index) in mangaSliderLabels"
                           :key="`manga_activity_slider_${index}`"
                           :class="{
-                            'text-left': index === 0,
+                            'text-left': !$vuetify.rtl ? index === 0 : index === 2,
                             'text-center': index === 1,
-                            'text-right': index === 2,
+                            'text-right': !$vuetify.rtl ? index === 2 : index === 0,
                           }"
                           class="my-0 py-0"
                         >

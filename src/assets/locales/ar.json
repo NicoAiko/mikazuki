@@ -82,13 +82,13 @@
             "manga": "مانغا"
           },
           "statistics": {
-            "totalAnime": "Total Anime",
-            "totalManga": "Total Manga",
-            "daysWatched": "Days Watched",
-            "meanScore": "Mean Score",
-            "chaptersRead": "Chapters Read",
-            "activityHistory": "Activity History",
-            "genreOverview": "Genre Overview"
+            "totalAnime": "الانميات الكلية",
+            "totalManga": "المانغا الكلية",
+            "daysWatched": "عدد ايام المشاهدة",
+            "meanScore": "متوسط التقييم",
+            "chaptersRead": "عدد الفصول المقروءة",
+            "activityHistory": "تاريخ التفاعل",
+            "genreOverview": "نظرة عامة علي الفئات"
           },
           "headline": "أحدث الأنشطة",
           "completed": "منجز {0}",
@@ -112,8 +112,8 @@
         }
       },
       "list": {
-    "airingFinished": " انتهى البث",
-    "missingEpisodes": "حلقة واحدة للمشاهدة | {count} حلقات للمشاهدة",
+        "airingFinished": " انتهى البث",
+        "missingEpisodes": "حلقة واحدة للمشاهدة | {count} حلقات للمشاهدة",
         "notYetAired": "لم يتم بثه",
         "nextAiringEpisode": "الحلقة {0} تبث {1}",
         "scoreDialog": {
@@ -121,7 +121,7 @@
         }
       },
       "detailView": {
-    "airedOn": "تم البث في {0}",
+        "airedOn": "تم البث في {0}",
         "airedOnTo": "{0} الى {1}",
         "airesFromTo": "البث من {0} إلى {1}",
         "airesOn": "البث فى {0}",
