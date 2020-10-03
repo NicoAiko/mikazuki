@@ -205,7 +205,7 @@
         "navigationBackgroundBlurriness": "Keburaman latar belakang navigasi",
         "initialListItemAmount": "Jumlah awal item daftar yang ditampilkan",
         "listAnimationActivity": {
-          "headline": "Daftar aktifitas animasi",
+          "headline": "Animasi daftar aktifitas",
           "subtitle": "Jumlah yang dipilih berfungsi sebagai batasan. Jika lebih banyak item ditampilkan pada saat yang sama, semua animasi dinonaktifkan untuk menjaga kinerja."
         }
       },

@@ -205,7 +205,7 @@
         "navigationBackgroundBlurriness": "Kekaburan Latar Belakang Navigasi",
         "initialListItemAmount": "Jumlah awal item senarai yang ditunjukkan",
         "listAnimationActivity": {
-          "headline": "Senarai animasi aktiviti",
+          "headline": "Animasi senarai aktiviti",
           "subtitle": "Jumlah yang dipilih berfungsi sebagai had. Sekiranya lebih banyak item ditunjukkan pada masa yang sama, semua animasi dinyahaktifkan untuk mengekalkan prestasi."
         }
       },
