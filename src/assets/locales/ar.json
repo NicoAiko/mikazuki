@@ -169,7 +169,7 @@
     },
     "seasonPreview": {
       "episodes": "? حلقات | 1 حلقة | {count} حلقات",
-    "startDate": "بدء البث:",
+      "startDate": "بدء البث:",
       "updateDialog": {
         "season": "الموسم",
         "title": "معلمات معاينة الموسم",
@@ -214,10 +214,10 @@
         "fix": "إصلاح",
         "remove": "نزع",
         "version": "الإصدار",
-    "changesIn": "أحدث التغييرات في {0}"
+        "changesIn": "أحدث التغييرات في {0}"
       },
       "specialThanks": {
-    "supporters": "الداعمين",
+        "supporters": "الداعمين",
         "translators": "مترجمين"
       }
     }
@@ -259,9 +259,9 @@
       "seasons": {
         "spring": "الربيع",
         "summer": "الصيف",
-    "fall": "خريف",
-    "autumn": "خريف",
-    "winter": "شتاء"
+        "fall": "خريف",
+        "autumn": "خريف",
+        "winter": "شتاء"
       },
       "settings": {
         "scoringFormats": {
