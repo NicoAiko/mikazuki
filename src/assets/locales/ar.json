@@ -113,7 +113,7 @@
       },
       "list": {
         "airingFinished": " انتهى البث",
-        "missingEpisodes": "حلقة واحدة للمشاهدة | {count} حلقات للمشاهدة",
+        "missingEpisodes": "لم يتبقي حلقات للمشاهدة | حلقة واحدة للمشاهدة | حلقتين للمشاهدة | {count} حلقات للمشاهدة | {count} حلقة للمشاهدة",
         "notYetAired": "لم يتم بثه",
         "nextAiringEpisode": "الحلقة {0} تبث {1}",
         "scoreDialog": {
@@ -168,7 +168,7 @@
       }
     },
     "seasonPreview": {
-      "episodes": "? حلقات | 1 حلقة | {count} حلقات",
+      "episodes": "عدد الحلقات غير معلوم | حلقة واحدة | حلقتين | {count} حلقات | {count} حلقة",
       "startDate": "بدء البث:",
       "updateDialog": {
         "season": "الموسم",
