@@ -21,6 +21,6 @@ import { isMobile } from '@/decorators';
 @Component
 export default class MobileNavDrawerButton extends Vue {
   @PropSync('value', Boolean) drawer!: boolean;
-  @isMobile() readonly isMobile!: boolean;
+  @isMobile({ iPadMobile: true }) readonly isMobile!: boolean;
 }
 </script>

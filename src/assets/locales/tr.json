@@ -1,0 +1,331 @@
+{
+  "originalReading": "Türkçe",
+  "englishReading": "Turkish",
+  "flag": "tr",
+  "actions": {
+    "add": "Ekle",
+    "added": "Listeye eklendi",
+    "addToPlanToWatch": "İzleneceklere ekle",
+    "back": "Geri",
+    "fastSearch": "Ara... ⏎",
+    "filter": "Filtre",
+    "loading": "Yükleniyor...",
+    "login": "Giriş",
+    "logout": "Çıkış",
+    "remove": "Sil",
+    "reset": "Sıfırla",
+    "save": "Kaydet",
+    "search": "Ara",
+    "sort": "Sırala",
+    "toPageTop": "En üste çık"
+  },
+  "alerts": {
+    "adultContent": "Bu medya yetişkin içeriği olarak kabul edilir! İzleyici takdirine göre tedbiri önerilir.",
+    "noDescription": "Açıklama mevcut değil.",
+    "noEnglishTitle": "İngilizce isim mevcut değil.",
+    "noInformation": "Herhangi bir bilgi mevcut değil.",
+    "noSynonyms": "Diğer adlar mevcut değil.",
+    "notYetInList": "Bu medya listenize ekli değil.",
+    "unauthenticated": "Kullanıcı giriş yetkisi sağlanamadı!",
+    "unknown": "Bilinmiyor"
+  },
+  "errors": {
+    "updateFailed": {
+      "title": "Senkronizasyon başarısız",
+      "text": "İstenilen senkronizasyon sağlanamadı. Anilist'in uygunluğunu veya Internet bağlantınızı kontrol edin!"
+    }
+  },
+  "menus": {
+    "navigationDrawer": {
+      "timeUntilNextRefresh": "Sonraki güncelleme: {0} dakika sonra"
+    },
+    "aniList": {
+      "completed": "Tamamlananlar",
+      "dropped": "Bırakılanlar",
+      "home": "Anasayfa",
+      "paused": "Ara verilenler",
+      "planning": "Planlananlar",
+      "repeating": "Tekrarlananlar",
+      "seasonPreview": "Sezon Önizlemesi",
+      "watching": "İzleniyor"
+    },
+    "search": "Ara",
+    "settings": {
+      "title": "Ayarlar",
+      "about": "Mikazuki Hakkında",
+      "aniList": "AniList",
+      "appSettings": "Uygulama Ayarları",
+      "changelog": "Son Değişiklikler",
+      "specialThanks": "Özel Teşekkür"
+    }
+  },
+  "components": {
+    "sorting": {
+      "directions": {
+        "ascending": "Artan",
+        "descending": "Azalan"
+      },
+      "sortingLabel": "Sırala",
+      "title": "Başlığa göre",
+      "score": "Puana göre",
+      "episodes": "Bölüme göre",
+      "startingDate": "Başlama tarihi",
+      "episodeAmount": "Bölüm sayısı"
+    }
+  },
+  "pages": {
+    "aniList": {
+      "home": {
+        "activities": {
+          "badges": {
+            "anime": "Anime",
+            "manga": "Manga"
+          },
+          "statistics": {
+            "totalAnime": "Toplam Anime",
+            "totalManga": "Toplam Manga",
+            "daysWatched": "Gün izleme süresi",
+            "meanScore": "Ortalama puan",
+            "chaptersRead": "Bölüm Okundu",
+            "activityHistory": "Etkinlik Geçmişi",
+            "genreOverview": "Tercih Edilen Tür"
+          },
+          "headline": "En son Etkilikler",
+          "completed": "{0} Tamamlandı",
+          "plansToWatch": "{0} İzlemek için planlandı",
+          "watchedEpisode": "{0} Bölüm {1} izlendi",
+          "dropped": "{0} Bırakılan",
+          "rewatchedEpisode": "{0} Bölüm {1} Tekrar izlendi",
+          "pausedWatching": "{0} Ara verilenler",
+          "readChapter": "{0} Bölüm {1} okundu",
+          "plansToRead": "{0} Okumak için planlandı",
+          "rereadChapter": "{0} Tekrar okunan {1} bölümler",
+          "pausedReading": "{0} Okumaya ara verildi"
+        },
+        "howToAuthenticate": {
+          "header": "Nasıl giriş yapılır:",
+          "text": [
+            "Lütfen ayarlar sayfasına (sağ köşedeki dişli çark) ve ardından \"AniList\" sekmesine gidin.",
+            "Orada, AniList oturum açma penceresini açacak bir \"Oturum Aç\" düğmesi bulacaksınız.",
+            "Oturum açma verilerini girdikten sonra pencere kapanacak ve oturum açma işlemi başarıyla tamamlanacaktır."
+          ]
+        }
+      },
+      "list": {
+        "airingFinished": "Airing finished",
+        "missingEpisodes": "{count} bölüm izlenecek",
+        "notYetAired": "Henüz yayınlanmadı",
+        "nextAiringEpisode": "{0}. Bölüm {1} yayınlanacak",
+        "scoreDialog": {
+          "title": "Puanı değiştir"
+        }
+      },
+      "detailView": {
+        "airedOn": "Başladı {0}",
+        "airedOnTo": "{0} - {1}",
+        "airesFromTo": "Başlayacak {0} - {1}",
+        "airesOn": "Başlayacak {0}",
+        "airingStartedOn": "Başladı {0}",
+        "airingStartsOnDay": "Başlayacak {0}",
+        "airingStartsInMonthYear": "{0} Ay sonra başlayacak",
+        "airingStartsInYear": "{0} Yıl sonra başlayacak",
+        "airingTime": "Yayın tarihi",
+        "airingWithUnknownStart": "? - {0}",
+        "description": "Özet",
+        "englishTitle": "İngilizce",
+        "episodes": "Bölüm",
+        "genres": "Tür",
+        "nativeTitle": "Japonca",
+        "ownInformation": "Liste bilgileriniz",
+        "ownProgress": "İlerleme",
+        "ownStatus": "Durum",
+        "ownScore": "Puan",
+        "romajiTitle": "Latin (Romanji)",
+        "score": "{0} / {1} puan",
+        "scoreLabel": "Ortalama puan",
+        "streamingSubheader": "Yayın servisleri",
+        "synonyms": "Diğer adlar"
+      }
+    },
+    "search": {
+      "searchQuery": "Ara...",
+      "searchFilter": "Search filter",
+      "adultContent": {
+        "label": "Yetişkin içerik",
+        "hint": "Keep clear to search for both adult and non-adult content",
+        "both": "Filtre yok",
+        "onlyNonAdult": "Sadece yetişkin olmayan içerik",
+        "onlyAdult": "Sadece yetişkin (+18) içerik"
+      },
+      "inList": {
+        "label": "Şu Listede",
+        "hint": "Keep clear to also search for media that is not yet in your list"
+      },
+      "genres": {
+        "label": "Tür",
+        "hint": "Max. 3",
+        "noMatch": "\"<strong>{0}</strong>\" hiçbir tür ile eşleşmiyor. Oluşturmak için <kbd>enter</kbd> tuşuna basın."
+      }
+    },
+    "seasonPreview": {
+      "episodes": "? bölüm | 1 bölüm | {count} bölüm",
+      "startDate": "Tarihinde yayınlanacak:",
+      "updateDialog": {
+        "season": "Sezon",
+        "yearOfSeason": "Sezon Yılı",
+        "title": "Sezon Önizleme Parametreleri"
+      }
+    },
+    "settings": {
+      "about": {
+        "version": "Versiyon"
+      },
+      "aniList": {
+        "loggedInAs": "{0} olarak giriş yapıldı",
+        "refreshRate": "Tazeleme hızı",
+        "refreshRateRule": "İzin verilen aralık 5 dakikadan 5 saate  kadar değişir (5 - 300 dakika)!",
+        "refreshRateSuffix": "dakika",
+        "refreshRateHint": "Bu aralık, AniList sunucusu ile bir sonraki senkronizasyona kadar olan dakika miktarını belirler. Aralıkta yapılan değişiklikler bir sonraki senkronizasyondan sonra uygulanacaktır.",
+        "userAccountSettings": {
+          "headline": "AniList Kullanıcı Hesabı Ayarları",
+          "subHeadline": " Bu ayarları değiştirince değişikliklerin yürürlüğe girmesi biraz zaman alabilir!",
+          "userTitleLanguage": "Anime Başlığının Dili",
+          "userTitleLanguageHint": "Bu ayar animelerin hangi dilde gösterileceğinini ayarlar.",
+          "scoringFormat": "Puanlama türü",
+          "scoringFormatHint": "Bu ayar animelerin nasıl puanlanacağını tanımlar.",
+          "showExplicitContent": "Yetişkin içeriği göster (+18 içerik)",
+          "showExplicitContentHint": "Bu ayar yetişkin içeriğin +18 gösterilmesini tanımlar."
+        }
+      },
+      "appSettings": {
+        "chooseLanguage": "Dil seç",
+        "darkMode": "Karanlık tema",
+        "navigationActiveItemColour": "Etkin bölüm simgesi rengi",
+        "navigationBackgroundBrightness": "Menü Arkaplan Parlaklığı",
+        "navigationBackgroundBlurriness": "Menü Arkaplan Bulanıklılığı",
+        "initialListItemAmount": "Gösterilen liste öğelerinin miktarı",
+        "listAnimationActivity": {
+          "headline": "Listedeki animasyon aktivite sayısı",
+          "subtitle": "Seçilen adetle listedeki animasyon sayısını sınırlar. Fazla sayıda animasyon performans kaybına yol açabilir."
+        }
+      },
+      "changelog": {
+        "new": "YENİ",
+        "fix": "DÜZELTME",
+        "remove": "KALDIRILAN",
+        "version": "Versiyon",
+        "changesIn": "Latest changes in {0}"
+      },
+      "specialThanks": {
+        "translators": "Çevirmenler",
+        "supporters": "Destekleyenler"
+      }
+    }
+  },
+  "routes": {
+    "aniList": {
+      "home": "Anasayfa",
+      "watching": "İzleniyor",
+      "repeating": "Tekrarlananlar",
+      "completed": "Tamamlananlar",
+      "paused": "Ara verilenler",
+      "dropped": "Bırakılanlar",
+      "planning": "Planlananlar"
+    },
+    "detailView": "Detaylı Görünüm",
+    "search": "Ara",
+      "seasonPreview": "Sezon Önizlemesi",
+    "settings": "Ayarlar"
+  },
+  "notifications": {
+    "aniList": {
+      "successTitle": "Senkranizasyon başarılı",
+      "completeUpdateText": "{0} başarıyla tamamlandı bölüm {1} olarak senkronize edildi.",
+      "simpleUpdateText": "{0} başarıyla bölüm {1} olarak senkronize edildi.",
+      "addedToList": "{0} başarıyla listenize eklendi.",
+      "removeEntry": "{0} başarıyla listenizden silindi."
+    }
+  },
+  "misc": {
+    "aniList": {
+      "listStatusses": {
+        "completed": "Tamamlananlar",
+        "dropped": "Bırakılalar",
+        "paused": "Ara verilenler",
+        "planning": "Planlananlar",
+        "repeating": "Tekrarlananlar",
+        "watching": "İzleniyor"
+      },
+      "mediaStatus": {
+        "finished": "TAMAMLANDI",
+        "releasing": "YAYINLANIYOR",
+        "not_yet_released": "HENÜZ YAYINLANMADI",
+        "cancelled": "İPTAL EDİLDİ"
+      },
+      "seasons": {
+        "spring": "Bahar",
+        "summer": "Yaz",
+        "fall": "Güz",
+        "autumn": "Autumn",
+        "winter": "Kış"
+      },
+      "settings": {
+        "scoringFormats": {
+          "POINT_100": "100 üzerinden (55 / 100)",
+          "POINT_10_DECIMAL": "10 üzerinden kusuratlı (5.5 / 10)",
+          "POINT_10": "10 üzerinden (5 / 10)",
+          "POINT_5": "5 üzerinden (3 / 5)",
+          "POINT_3": "3 Farklı Gülücük"
+        },
+        "titleLanguages": {
+          "ROMAJI": "Latin (Romanji) (Miira no Kaikata)",
+          "ENGLISH": "İngilizce (How to keep a mummy)",
+          "NATIVE": "Japonca (ミイラの飼い方)",
+          "ROMAJI_STYLISED": "Stylised Romaji",
+          "ENGLISH_STYLISED": "Stylised English",
+          "NATIVE_STYLISED": "Stylised Native"
+        }
+      }
+    },
+    "colours": {
+      "automatic": "Otomatik",
+      "black": "Siyah",
+      "white": "Beyaz"
+    },
+    "dates": {
+      "dayMonthNumeric": "DD/MM",
+      "full": "MMMM Do YYYY",
+      "monthAndYear": "MMMM YYYY",
+      "yearOnly": "YYYY",
+      "dateUnknown": "Tarih bilinmiyor"
+    },
+    "rules": {
+      "required": "Bu alan doldurulmalı."
+    },
+    "modules": {
+      "aniList": "AniList"
+    },
+    "status": {
+      "all": "Tümü",
+      "disabled": "Kapalı"
+    },
+    "sorting": {
+      "by": {
+        "title": "Başlığa göre",
+        "score": "Puana göre",
+        "episodes": "Bölüme göre"
+      },
+      "direction": {
+        "desc": "Azalan",
+        "asc": "Artan"
+      }
+    }
+  },
+  "$vuetify": {
+    "noDataText": "Veri yok"
+  },
+  "transfer": {
+    "title": "ZeroTwo becomes Mikazuki",
+    "text": "Dear ZeroTwo users\nThe people that follow the Discord server's update information will already know that I already had plans to rename ZeroTwo for some time.\nThe reason of renaming ZeroTwo are simply the new name being more neutral and more comfortable as far as my own personal feelings are concerned.\nUsing a poll on Discord, it was decided, by a majority, to use mikazuki.moe as the new domain.\nStarting 7th April 2020, zerotwo.org will be discontinued and no longer reachable whereas mikazuki.moe is available starting today.\nTo continue using ZeroTwo, now being called Mikazuki, please switch to mikazuki.moe.\nPlease mind that you will have to re-login on mikazuki.moe as you can't transfer data from zerotwo.org to mikazuki.moe.\nAlso your settings you had on zerotwo.org, like the refresh timer interval, have to be reset.\n\nNicoAiko\nMikazuki main developer"
+  }
+}

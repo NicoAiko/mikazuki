@@ -223,6 +223,7 @@ export default class SeasonPreview extends Vue {
       const isAdded = this.currentListEntryIds.includes(entry.id);
 
       return {
+        aniListId: entry.id,
         title: entry.title.userPreferred,
         episodes: entry.episodes || '?',
         genres: entry.genres,

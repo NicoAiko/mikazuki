@@ -32,7 +32,7 @@
   "errors": {
     "updateFailed": {
       "title": "Update failed",
-      "text": "The committed update could not be synchronized! Check AniList availability or the internet connection!"
+      "text": "The committed update could not be synchronized! Check AniList availability or the Internet connection!"
     }
   },
   "menus": {
