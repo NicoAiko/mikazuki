@@ -1,3 +1,20 @@
+## v0.8.1
+
+### NEW FEATURES
+- Add Turkish translation
+- Re-add scrollbar for desktop
+- Stylize scrollbar
+- Highlight own user's activities
+- Allow jumping to media from activity image
+- Update dependencies
+
+### FIX
+- Fix season preview image not linking to details
+- Hide adult content from list when set accordingly
+- Fix iPad being not a mobile device
+
+---
+
 ## v0.8.0
 
 ### NEW FEATURES

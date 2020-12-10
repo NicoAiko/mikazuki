@@ -9,6 +9,11 @@ module.exports = {
       enableInSFC: false,
     },
   },
+  configureWebpack(config) {
+    if (process.env.NODE_ENV === 'production') {
+      config.output.filename = '[name].[contenthash].js';
+    }
+  },
   chainWebpack(config) {
     config.module
       .rule('graphql')
