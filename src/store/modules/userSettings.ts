@@ -69,6 +69,9 @@ const getters: GetterTree<UserSettingsState, RootState> = {
   scoreFormat(state): AniListScoreFormat {
     return state._session.user.mediaListOptions.scoreFormat;
   },
+  username(state): string {
+    return state._session.user.name;
+  },
 };
 
 const mutations: MutationTree<UserSettingsState> = {

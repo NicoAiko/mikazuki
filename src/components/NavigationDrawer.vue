@@ -2,6 +2,10 @@
   <v-navigation-drawer
     v-model="drawerActive"
     app
+    touchless
+    overlay-color="black"
+    :overlay-opacity="isMobile ? 0.8 : 0"
+    :temporary="isMobile"
     :expand-on-hover="!isMobile"
     :mini-variant="!isMobile"
     :right="$vuetify.rtl"
@@ -110,7 +114,7 @@ export default class NavigationDrawer extends Vue {
   @Getter('app') navigationDrawerListItemColor!: string;
   @Getter('app') navigationDrawerBackgroundBrightness!: number;
   @Getter('app') navigationDrawerBackgroundBlurriness!: number;
-  @isMobile() readonly isMobile!: boolean;
+  @isMobile({ iPadMobile: true }) readonly isMobile!: boolean;
 
   loading: boolean = false;
   item = 0;

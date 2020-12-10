@@ -10,6 +10,7 @@ module.exports = {
     "no-debugger": process.env.NODE_ENV === "production" ? "error" : "off",
     quotes: ["error", "single"],
     semi: ["error", "always"],
+    "vue/experimental-script-setup-vars": "off",
     "vue/max-attributes-per-line": [
       "error",
       {

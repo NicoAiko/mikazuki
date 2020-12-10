@@ -19,9 +19,17 @@
           <v-container class="pa-0">
             <v-row no-gutters>
               <v-col cols="4">
-                <v-img height="150" :src="activity.coverImage" />
+                <v-img
+                  v-if="activity.isAnime"
+                  style="cursor: pointer"
+                  height="150"
+                  :src="activity.coverImage"
+                  @click.native="moveToDetails(activity.mediaId)"
+                />
+
+                <v-img v-else height="150" :src="activity.coverImage" />
               </v-col>
-              <v-col cols="8">
+              <v-col cols="8" :class="activity.userName === username ? 'colorize-activity' : ''">
                 <v-card-title class="headline">
                   {{ activity.userName }}
 
@@ -80,6 +88,7 @@ import { Component, Vue, Watch } from 'vue-property-decorator';
 import { mapGetters } from 'vuex';
 import ListImage from '@/components/AniList/ListElements/ListImage.vue';
 import { IAniListActivity, AniListType } from '@/types';
+import { Getter } from '@/decorators';
 
 @Component({
   components: { ListImage },
@@ -88,6 +97,7 @@ import { IAniListActivity, AniListType } from '@/types';
   },
 })
 export default class Activities extends Vue {
+  @Getter('userSettings') username!: string;
   readonly latestActivities!: IAniListActivity[];
   loading: boolean = false;
 
@@ -125,6 +135,15 @@ export default class Activities extends Vue {
         rereadChapter: activity.status === 'reread chapter',
         pausedReading: activity.status === 'paused reading',
       }));
+  }
+
+  moveToDetails(id: number) {
+    if (!id) {
+      return;
+    }
+
+    const location = { name: 'DetailView', params: { id: id.toString() } };
+    this.$router.push(location);
   }
 
   @Watch('latestActivities')

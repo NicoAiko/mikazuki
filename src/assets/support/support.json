@@ -27,6 +27,10 @@
     "icons": [],
     "name": "Stain",
     "message": "Thanks for providing and improving the Arabic localisation."
+  }, {
+    "icons": ["tr"],
+    "name": "Uxell",
+    "message": "Thanks for providing and improving the Turkish localisation."
   }],
   "support": [{
     "icon": "coffee",

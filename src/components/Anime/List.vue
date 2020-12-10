@@ -21,6 +21,7 @@ export default class AnimeList extends Vue {
   // TODO: Use other name and typing to use animelist for other list providers as well
   @Getter('aniList') readonly aniListData!: IAniListMediaListCollection;
   @Getter('app') readonly listItemStartAmount!: number;
+  @Getter('userSettings') readonly allowAdultContent!: boolean;
   updateTimer: NodeJS.Timeout | null = null;
   updatePayload: any[] = [];
   updatePayloadHasCompletedItems: boolean = false;
@@ -38,30 +39,34 @@ export default class AnimeList extends Vue {
       return [];
     }
 
-    return chain(listElement.entries)
-      .map((entry) => {
-        const { media } = entry;
+    let list = chain(listElement.entries).map((entry) => {
+      const { media } = entry;
 
-        return {
-          __rendered: false,
-          __entry: entry,
-          __media: media,
-          aniListId: media.id,
-          currentProgress: entry.progress,
-          episodeAmount: media.episodes || '?',
-          id: entry.id,
-          // TODO: Use Object with multiple sizes
-          imageLink: media.coverImage.extraLarge,
-          mediaStatus: media.status,
-          nextAiringEpisode: media.nextAiringEpisode,
-          score: entry.score,
-          status: entry.status,
-          studios: media.studios,
-          title: media.title.userPreferred,
-        };
-      })
-      .orderBy(this.sortBy, this.sortDesc ? 'desc' : 'asc')
-      .value();
+      return {
+        __rendered: false,
+        __entry: entry,
+        __media: media,
+        aniListId: media.id,
+        currentProgress: entry.progress,
+        episodeAmount: media.episodes || '?',
+        id: entry.id,
+        // TODO: Use Object with multiple sizes
+        imageLink: media.coverImage.extraLarge,
+        isAdult: media.isAdult,
+        mediaStatus: media.status,
+        nextAiringEpisode: media.nextAiringEpisode,
+        score: entry.score,
+        status: entry.status,
+        studios: media.studios,
+        title: media.title.userPreferred,
+      };
+    });
+
+    if (!this.allowAdultContent) {
+      list = list.filter((entry) => !entry.isAdult);
+    }
+
+    return list.orderBy(this.sortBy, this.sortDesc ? 'desc' : 'asc').value();
   }
 
   get slicedListData(): any[] {
