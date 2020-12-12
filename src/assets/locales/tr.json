@@ -32,7 +32,7 @@
   "errors": {
     "updateFailed": {
       "title": "Senkronizasyon başarısız",
-      "text": "İstenilen senkronizasyon sağlanamadı. Anilist'in uygunluğunu veya İnternet bağlantınızı kontrol edin!"
+      "text": "İstenilen senkronizasyon sağlanamadı. AniList'in uygunluğunu veya İnternet bağlantınızı kontrol edin!"
     }
   },
   "menus": {
@@ -173,7 +173,7 @@
       "updateDialog": {
         "season": "Sezon",
         "yearOfSeason": "Sezon Yılı",
-        "title": "Sezon Genel Bakış Parametreleri"
+        "title": "Genel Bakış Parametreleri"
       }
     },
     "settings": {
@@ -240,7 +240,7 @@
   "notifications": {
     "aniList": {
       "successTitle": "Senkranizasyon başarılı",
-      "completeUpdateText": "{0} başarıyla Bölüm {1} olarak senkronize edildi.",
+      "completeUpdateText": "{0} başarıyla tamamlandı Bölüm {1} olarak senkronize edildi.",
       "simpleUpdateText": "{0} başarıyla Bölüm {1} olarak senkronize edildi.",
       "addedToList": "{0} başarıyla listenize eklendi.",
       "removeEntry": "{0} başarıyla listenizden silindi."
