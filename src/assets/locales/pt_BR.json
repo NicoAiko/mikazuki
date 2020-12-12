@@ -18,8 +18,8 @@
     "search": "Pesquisar",
     "sort": "Ordenar",
     "toPageTop": "Ir para o topo",
-    "putOnRepeatList": "Put on repeat list",
-    "revertToAiringList": "Revert to airing list"
+    "putOnRepeatList": "Colocar em Reassistindo",
+    "revertToAiringList": "Reverter para lista de exibição"
   },
   "alerts": {
     "adultContent": "Esta mídia contém conteúdo adulto! É aconselhável a discrição dos espectadores.",
@@ -198,7 +198,7 @@
           "userTitleLanguage": "Idioma do Título",
           "userTitleLanguageHint": "Esta configuração define qual título é usado para exibir o nome da mídia."
         },
-        "notLoggedIn": "You're currently not logged in! Please do so by clicking on the \"Login\" button below."
+        "notLoggedIn": "Você não está logado no momento! Por favor faça isso clicando no botão \"Login\" abaixo."
       },
       "appSettings": {
         "chooseLanguage": "Selecionar idioma",
