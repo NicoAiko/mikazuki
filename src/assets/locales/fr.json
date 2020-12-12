@@ -19,7 +19,9 @@
     "sort": "Trier",
     "toPageTop": "Retourner en haut",
     "putOnRepeatList": "Put on repeat list",
-    "revertToAiringList": "Revert to airing list"
+    "toPageTop": "Retourner en haut",
+    "putOnRepeatList": "Mettre dans la liste à revoir",
+    "revertToAiringList": "Retourner à la liste en cours de diffusion"
   },
   "alerts": {
     "adultContent": "Ce média est considéré comme contenu mature! L'utilisateur est prévenu d'agir en toute discrétion.",
@@ -198,7 +200,7 @@
           "userTitleLanguage": "Langue du titre",
           "userTitleLanguageHint": "Ce paramètre défini quel titre va être utilisé pour afficher le nom du média."
         },
-        "notLoggedIn": "You're currently not logged in! Please do so by clicking on the \"Login\" button below."
+        "notLoggedIn": "Vous n'êtes actuellement pas connecté ! Veuillez-vous connectez en cliquant sur le bouton \"Connexion\" ci-dessous."
       },
       "appSettings": {
         "chooseLanguage": "Choisir la langue",
