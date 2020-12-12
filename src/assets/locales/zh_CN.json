@@ -17,7 +17,9 @@
     "search": "搜索",
     "sort": "排序",
     "toPageTop": "返回顶部",
-    "filter": "筛选"
+    "filter": "筛选",
+    "putOnRepeatList": "Put on repeat list",
+    "revertToAiringList": "Revert to airing list"
   },
   "alerts": {
     "adultContent": "该作品可能含有 R-18 内容！建议您在查看时注意场合。",
@@ -195,7 +197,8 @@
           "subHeadline": "更改这些设置可能需要一段时间才会生效！",
           "userTitleLanguage": "片名语言",
           "userTitleLanguageHint": "此项设置用于修改作品片名在显示时所使用的语言。"
-        }
+        },
+        "notLoggedIn": "You're currently not logged in! Please do so by clicking on the \"Login\" button below."
       },
       "appSettings": {
         "chooseLanguage": "语言选择",

@@ -12,8 +12,10 @@
     "loading": "Loading...",
     "login": "Login",
     "logout": "Logout",
+    "putOnRepeatList": "Put on repeat list",
     "remove": "Remove",
     "reset": "Reset",
+    "revertToAiringList": "Revert to airing list",
     "save": "Save",
     "search": "Search",
     "sort": "Sort",
@@ -181,6 +183,7 @@
         "version": "Version"
       },
       "aniList": {
+        "notLoggedIn": "You're currently not logged in! Please do so by clicking on the \"Login\" button below.",
         "loggedInAs": "Logged in as {0}",
         "refreshRate": "Refresh rate",
         "refreshRateRule": "The allowed interval reaches from 5 minutes to 5 hours (5 - 300 minutes)!",

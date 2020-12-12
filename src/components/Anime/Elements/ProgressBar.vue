@@ -19,7 +19,7 @@
             <v-icon size="20">mdi-undo</v-icon>
           </v-btn>
         </template>
-        <span>Revert to airing list</span>
+        <span>{{ $t('actions.revertToAiringList') }}</span>
       </v-tooltip>
 
       <v-tooltip top v-else-if="completedList">
@@ -28,7 +28,7 @@
             <v-icon size="20">mdi-repeat</v-icon>
           </v-btn>
         </template>
-        <span>Put on repeat list</span>
+        <span>{{ $t('actions.putOnRepeatList') }}</span>
       </v-tooltip>
 
       <v-btn v-else small text icon @click="onPlusClick">

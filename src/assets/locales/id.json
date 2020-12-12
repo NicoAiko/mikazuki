@@ -17,7 +17,9 @@
     "search": "Cari",
     "sort": "Urut & Saring",
     "toPageTop": "Lompat ke atas",
-    "filter": "Saring"
+    "filter": "Saring",
+    "putOnRepeatList": "Put on repeat list",
+    "revertToAiringList": "Revert to airing list"
   },
   "alerts": {
     "adultContent": "Media ini dianggap konten dewasa! Kebijakan Pemirsa Disarankan.",
@@ -195,7 +197,8 @@
           "subHeadline": "Mengubah pengaturan ini bisa menghabiskan beberapa waktu hingga sampai berlaku!",
           "userTitleLanguage": "Bahasa Judul",
           "userTitleLanguageHint": "Pengaturan ini menentukan judul mana yang digunakan untuk menampilkan nama media."
-        }
+        },
+        "notLoggedIn": "You're currently not logged in! Please do so by clicking on the \"Login\" button below."
       },
       "appSettings": {
         "chooseLanguage": "Pilih bahasa",

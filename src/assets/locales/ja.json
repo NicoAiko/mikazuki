@@ -17,7 +17,9 @@
     "save": "保存",
     "search": "検索",
     "sort": "並べる",
-    "toPageTop": "トップへ"
+    "toPageTop": "トップへ",
+    "putOnRepeatList": "リピートリストに移動する",
+    "revertToAiringList": "「見る」リストに戻す"
   },
   "alerts": {
     "adultContent": "１８禁コンテンツです！ご注意下さい！",
@@ -195,7 +197,8 @@
           "subHeadline": "この設定を変えれば、効能が現れるのは数分掛かるかもしれません。",
           "userTitleLanguage": "タイトルの言語",
           "userTitleLanguageHint": "この設定は、メディアのタイトルの言語フォーマットを変える。"
-        }
+        },
+        "notLoggedIn": "現在、ログインしていません。そうするために、下の「ログイン」ボタンをクリックしてください。"
       },
       "appSettings": {
         "chooseLanguage": "言語を選択してください (Choose language)",

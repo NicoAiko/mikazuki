@@ -17,7 +17,9 @@
     "search": "بحث",
     "sort": "فرز وصفى",
     "toPageTop": "القفز إلى الأعلى",
-    "filter": "فرز"
+    "filter": "فرز",
+    "putOnRepeatList": "Put on repeat list",
+    "revertToAiringList": "Revert to airing list"
   },
   "alerts": {
     "adultContent": "تعتبر هذه الوسائط محتوى للبالغين! يُنصح بتقدير المشاهد.",
@@ -195,7 +197,8 @@
           "showExplicitContentHint": "هذا الخيار سيحدد ظهور محتوي لـ18+ من عدمه.",
           "userTitleLanguage": "لغة الاسم",
           "userTitleLanguageHint": "هذا الخيار يحدد اي عنوان سيستخدم لعرض اسم المحتوي."
-        }
+        },
+        "notLoggedIn": "You're currently not logged in! Please do so by clicking on the \"Login\" button below."
       },
       "appSettings": {
         "chooseLanguage": "اختر اللغة",
