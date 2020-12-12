@@ -32,12 +32,12 @@
   "errors": {
     "updateFailed": {
       "title": "Senkronizasyon başarısız",
-      "text": "İstenilen senkronizasyon sağlanamadı. Anilist'in uygunluğunu veya Internet bağlantınızı kontrol edin!"
+      "text": "İstenilen senkronizasyon sağlanamadı. AniList'in uygunluğunu veya İnternet bağlantınızı kontrol edin!"
     }
   },
   "menus": {
     "navigationDrawer": {
-      "timeUntilNextRefresh": "Sonraki güncelleme: {0} dakika sonra"
+      "timeUntilNextRefresh": "Güncelleme: {0}"
     },
     "aniList": {
       "completed": "Tamamlananlar",
@@ -46,7 +46,7 @@
       "paused": "Ara verilenler",
       "planning": "Planlananlar",
       "repeating": "Tekrarlananlar",
-      "seasonPreview": "Sezon Önizlemesi",
+      "seasonPreview": "Sezona Genel Bakış",
       "watching": "İzleniyor"
     },
     "search": "Ara",
@@ -68,7 +68,7 @@
       "sortingLabel": "Sırala",
       "title": "Başlığa göre",
       "score": "Puana göre",
-      "episodes": "Bölüme göre",
+      "episodes": "Bölüm sayısına göre",
       "startingDate": "Başlama tarihi",
       "episodeAmount": "Bölüm sayısı"
     }
@@ -91,16 +91,16 @@
             "genreOverview": "Tercih Edilen Tür"
           },
           "headline": "En son Etkilikler",
-          "completed": "{0} Tamamlandı",
-          "plansToWatch": "{0} İzlemek için planlandı",
-          "watchedEpisode": "{0} Bölüm {1} izlendi",
+          "completed": "{0} Tamamladı",
+          "plansToWatch": "{0} İzlemek için planladı",
+          "watchedEpisode": "{0} Bölüm {1} izledi",
           "dropped": "{0} Bırakılan",
-          "rewatchedEpisode": "{0} Bölüm {1} Tekrar izlendi",
-          "pausedWatching": "{0} Ara verilenler",
-          "readChapter": "{0} Bölüm {1} okundu",
-          "plansToRead": "{0} Okumak için planlandı",
-          "rereadChapter": "{0} Tekrar okunan {1} bölümler",
-          "pausedReading": "{0} Okumaya ara verildi"
+          "rewatchedEpisode": "{0} Bölüm {1} Tekrar izledi",
+          "pausedWatching": "{0} ara verdi",
+          "readChapter": "{0} Bölüm {1} okudu",
+          "plansToRead": "{0} Okumak için planladı",
+          "rereadChapter": "{0} Bölüm {1}  tekrar okudu",
+          "pausedReading": "{0} Okumaya ara verdi"
         },
         "howToAuthenticate": {
           "header": "Nasıl giriş yapılır:",
@@ -112,8 +112,8 @@
         }
       },
       "list": {
-        "airingFinished": "Airing finished",
-        "missingEpisodes": "{count} bölüm izlenecek",
+        "airingFinished": "Tamamlandı",
+        "missingEpisodes": "{count} bölüm kaldı",
         "notYetAired": "Henüz yayınlanmadı",
         "nextAiringEpisode": "{0}. Bölüm {1} yayınlanacak",
         "scoreDialog": {
@@ -140,7 +140,7 @@
         "ownProgress": "İlerleme",
         "ownStatus": "Durum",
         "ownScore": "Puan",
-        "romajiTitle": "Latin (Romanji)",
+        "romajiTitle": "Latin",
         "score": "{0} / {1} puan",
         "scoreLabel": "Ortalama puan",
         "streamingSubheader": "Yayın servisleri",
@@ -173,7 +173,7 @@
       "updateDialog": {
         "season": "Sezon",
         "yearOfSeason": "Sezon Yılı",
-        "title": "Sezon Önizleme Parametreleri"
+        "title": "Genel Bakış Parametreleri"
       }
     },
     "settings": {
@@ -182,10 +182,10 @@
       },
       "aniList": {
         "loggedInAs": "{0} olarak giriş yapıldı",
-        "refreshRate": "Tazeleme hızı",
+        "refreshRate": "Güncelleme hızı",
         "refreshRateRule": "İzin verilen aralık 5 dakikadan 5 saate  kadar değişir (5 - 300 dakika)!",
         "refreshRateSuffix": "dakika",
-        "refreshRateHint": "Bu aralık, AniList sunucusu ile bir sonraki senkronizasyona kadar olan dakika miktarını belirler. Aralıkta yapılan değişiklikler bir sonraki senkronizasyondan sonra uygulanacaktır.",
+        "refreshRateHint": "Bu ayar, AniList sunucusu ile sonraki senkronizasyon için bir dakika aralığı belirler. Ayarda yapılan değişiklikler bir sonraki senkronizasyondan sonra uygulanacaktır.",
         "userAccountSettings": {
           "headline": "AniList Kullanıcı Hesabı Ayarları",
           "subHeadline": " Bu ayarları değiştirince değişikliklerin yürürlüğe girmesi biraz zaman alabilir!",
@@ -194,7 +194,7 @@
           "scoringFormat": "Puanlama türü",
           "scoringFormatHint": "Bu ayar animelerin nasıl puanlanacağını tanımlar.",
           "showExplicitContent": "Yetişkin içeriği göster (+18 içerik)",
-          "showExplicitContentHint": "Bu ayar yetişkin içeriğin +18 gösterilmesini tanımlar."
+          "showExplicitContentHint": "Bu ayar yetişkin içeriğin (+18) gösterilme durumunu tanımlar."
         }
       },
       "appSettings": {
@@ -205,8 +205,8 @@
         "navigationBackgroundBlurriness": "Menü Arkaplan Bulanıklılığı",
         "initialListItemAmount": "Gösterilen liste öğelerinin miktarı",
         "listAnimationActivity": {
-          "headline": "Listedeki animasyon aktivite sayısı",
-          "subtitle": "Seçilen adetle listedeki animasyon sayısını sınırlar. Fazla sayıda animasyon performans kaybına yol açabilir."
+          "headline": "Sayfadaki animasyon etkinliği sayısı",
+          "subtitle": " Sayfadaki animasyon etkinliği sayısını seçilen adetle sınırlar. Aynı anda daha fazla öğe gösterilirse, performansı korumak için tüm animasyonlar devre dışı bırakılır."
         }
       },
       "changelog": {
@@ -234,14 +234,14 @@
     },
     "detailView": "Detaylı Görünüm",
     "search": "Ara",
-      "seasonPreview": "Sezon Önizlemesi",
+      "seasonPreview": "Sezona Genel Bakış",
     "settings": "Ayarlar"
   },
   "notifications": {
     "aniList": {
       "successTitle": "Senkranizasyon başarılı",
-      "completeUpdateText": "{0} başarıyla tamamlandı bölüm {1} olarak senkronize edildi.",
-      "simpleUpdateText": "{0} başarıyla bölüm {1} olarak senkronize edildi.",
+      "completeUpdateText": "{0} başarıyla tamamlandı Bölüm {1} olarak senkronize edildi.",
+      "simpleUpdateText": "{0} başarıyla Bölüm {1} olarak senkronize edildi.",
       "addedToList": "{0} başarıyla listenize eklendi.",
       "removeEntry": "{0} başarıyla listenizden silindi."
     }
@@ -278,7 +278,7 @@
           "POINT_3": "3 Farklı Gülücük"
         },
         "titleLanguages": {
-          "ROMAJI": "Latin (Romanji) (Miira no Kaikata)",
+          "ROMAJI": "Latin -Romaji- (Miira no Kaikata)",
           "ENGLISH": "İngilizce (How to keep a mummy)",
           "NATIVE": "Japonca (ミイラの飼い方)",
           "ROMAJI_STYLISED": "Stylised Romaji",
@@ -311,7 +311,7 @@
     },
     "sorting": {
       "by": {
-        "title": "Başlığa göre",
+        "title": "İsme göre",
         "score": "Puana göre",
         "episodes": "Bölüme göre"
       },
@@ -325,7 +325,7 @@
     "noDataText": "Veri yok"
   },
   "transfer": {
-    "title": "ZeroTwo becomes Mikazuki",
-    "text": "Dear ZeroTwo users\nThe people that follow the Discord server's update information will already know that I already had plans to rename ZeroTwo for some time.\nThe reason of renaming ZeroTwo are simply the new name being more neutral and more comfortable as far as my own personal feelings are concerned.\nUsing a poll on Discord, it was decided, by a majority, to use mikazuki.moe as the new domain.\nStarting 7th April 2020, zerotwo.org will be discontinued and no longer reachable whereas mikazuki.moe is available starting today.\nTo continue using ZeroTwo, now being called Mikazuki, please switch to mikazuki.moe.\nPlease mind that you will have to re-login on mikazuki.moe as you can't transfer data from zerotwo.org to mikazuki.moe.\nAlso your settings you had on zerotwo.org, like the refresh timer interval, have to be reset.\n\nNicoAiko\nMikazuki main developer"
+    "title": "ZeroTwo artık Mikazuki oldu.",
+    "text": "Sayın ZeroTwo kullanıcıları\nDiscord sunucusunun güncelleme bilgilerini takip eden kişiler zaten bir süredir ZeroTwo adını değiştirmeyi planladığımı biliyorlar.\nZeroTwo'yu yeniden adlandırmanın nedeni, kendi kişisel duygularıma göre yeni ismin daha doğal ve daha rahat gelmesi.\nDiscord üzerinde yapılan bir anketle, çoğunluk mikazuki.moe'yi yeni alan adı olarak kullanmaya karar verdi.\n7 Nisan 2020'den itibaren zerotwo.org kullanımdan kaldırılacak ve artık ulaşılamayacak, ancak mikazuki.moe bugünden itibaren erişilebilir olacak.\nArtık Mikazuki olarak adlandırılan ZeroTwo'yu kullanmaya devam etmek için lütfen mikazuki.moe'ya geçin.\nZerotwo.org'dan mikazuki.moe'ye veri aktaramayacağınız için mikazuki.moe'da yeniden oturum açmanız gerekeceğini lütfen unutmayın.\nAyrıca, yenileme zamanlayıcı aralığı gibi zerotwo.org'da sahip olduğunuz ayarlarınız sıfırlanacaktır.\n\nNicoAiko\n, Mikazuki ana geliştiricisi."
   }
 }
