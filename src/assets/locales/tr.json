@@ -18,8 +18,8 @@
     "search": "Ara",
     "sort": "Sırala",
     "toPageTop": "En üste çık",
-    "putOnRepeatList": "Put on repeat list",
-    "revertToAiringList": "Revert to airing list"
+    "putOnRepeatList": "Tekrarlananlar listesine ekle",
+    "revertToAiringList": "İzleniyor listesine geri al"
   },
   "alerts": {
     "adultContent": "Bu medya yetişkin içeriği olarak kabul edilir! İzleyici takdirine göre tedbiri önerilir.",
@@ -198,7 +198,7 @@
           "showExplicitContent": "Yetişkin içeriği göster (+18 içerik)",
           "showExplicitContentHint": "Bu ayar yetişkin içeriğin (+18) gösterilme durumunu tanımlar."
         },
-        "notLoggedIn": "You're currently not logged in! Please do so by clicking on the \"Login\" button below."
+        "notLoggedIn": "Henüz giriş yapmadınız! Lütfen aşağıdaki \"Giriş\" tuşuna basarak işleminizi tamamlayın."
       },
       "appSettings": {
         "chooseLanguage": "Dil seç",
