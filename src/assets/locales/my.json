@@ -18,8 +18,8 @@
     "sort": "Isih & Tapis",
     "toPageTop": "Lompat ke atas",
     "filter": "Tapis",
-    "putOnRepeatList": "Put on repeat list",
-    "revertToAiringList": "Revert to airing list"
+    "putOnRepeatList": "Masukkan ke senarai ulangan",
+    "revertToAiringList": "Kembalikan ke senarai menonton"
   },
   "alerts": {
     "adultContent": "Media ini dianggap kandungan dewasa! Kebijakan Penonton Disyorkan.",
@@ -198,7 +198,7 @@
           "userTitleLanguage": "Bahasa Tajuk",
           "userTitleLanguageHint": "Tetapan ini menentukan tajuk mana yang digunakan untuk memaparkan nama media."
         },
-        "notLoggedIn": "You're currently not logged in! Please do so by clicking on the \"Login\" button below."
+        "notLoggedIn": "Anda belum log masuk! Sila lakukan dengan mengklik pada butang \"Masuk\" di bawah."
       },
       "appSettings": {
         "chooseLanguage": "Pilih bahasa",

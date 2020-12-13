@@ -18,8 +18,8 @@
     "sort": "Urut & Saring",
     "toPageTop": "Lompat ke atas",
     "filter": "Saring",
-    "putOnRepeatList": "Put on repeat list",
-    "revertToAiringList": "Revert to airing list"
+    "putOnRepeatList": "Masukkan ke daftar ulang",
+    "revertToAiringList": "Kembalikan ke daftar menonton"
   },
   "alerts": {
     "adultContent": "Media ini dianggap konten dewasa! Kebijakan Pemirsa Disarankan.",
@@ -198,7 +198,7 @@
           "userTitleLanguage": "Bahasa Judul",
           "userTitleLanguageHint": "Pengaturan ini menentukan judul mana yang digunakan untuk menampilkan nama media."
         },
-        "notLoggedIn": "You're currently not logged in! Please do so by clicking on the \"Login\" button below."
+        "notLoggedIn": "Kamu belum masuk! Untuk masuk, silakan tekan tombol \"Masuk\" di bawah ini."
       },
       "appSettings": {
         "chooseLanguage": "Pilih bahasa",
