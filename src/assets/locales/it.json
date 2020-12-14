@@ -18,8 +18,8 @@
     "search": "Cerca",
     "sort": "Ordina",
     "toPageTop": "Torna in cima",
-    "putOnRepeatList": "Put on repeat list",
-    "revertToAiringList": "Revert to airing list"
+    "putOnRepeatList": "Inseriscilo nella lista degli anime che stai riguardando",
+    "revertToAiringList": "Reinseriscilo nella lista degli anime che stai guardando"
   },
   "alerts": {
     "adultContent": "Questo media è considerato per adulti.",
@@ -198,7 +198,7 @@
           "userTitleLanguage": "Lingua del titolo",
           "userTitleLanguageHint": "Questa impostazione definisce quale lingua verrà utilizzata per visualizzare i titoli dei media"
         },
-        "notLoggedIn": "You're currently not logged in! Please do so by clicking on the \"Login\" button below."
+        "notLoggedIn": "Non sei loggato! Accedi usando il bottone \"Accedi\"."
       },
       "appSettings": {
         "chooseLanguage": "Scegli lingua",
