@@ -91,23 +91,23 @@
             "genreOverview": "Tercih Edilen Tür"
           },
           "headline": "En son Etkilikler",
-          "completed": "{0} Tamamladı",
-          "plansToWatch": "{0} İzlemek için planladı",
+          "completed": "{0} tamamladı",
+          "plansToWatch": "{0} izlemeyi planladı",
           "watchedEpisode": "{0} Bölüm {1} izledi",
-          "dropped": "{0} Bırakılan",
-          "rewatchedEpisode": "{0} Bölüm {1} Tekrar izledi",
+          "dropped": "{0} izlemeyi bıraktı",
+          "rewatchedEpisode": "{0} Bölüm {1} tekrar izledi",
           "pausedWatching": "{0} ara verdi",
           "readChapter": "{0} Bölüm {1} okudu",
-          "plansToRead": "{0} Okumak için planladı",
+          "plansToRead": "{0} okumayı planladı",
           "rereadChapter": "{0} Bölüm {1}  tekrar okudu",
-          "pausedReading": "{0} Okumaya ara verdi"
+          "pausedReading": "{0} okumaya ara verdi"
         },
         "howToAuthenticate": {
           "header": "Nasıl giriş yapılır:",
           "text": [
             "Lütfen ayarlar sayfasına (sağ köşedeki dişli çark) ve ardından \"AniList\" sekmesine gidin.",
-            "Orada, AniList oturum açma penceresini açacak bir \"Oturum Aç\" düğmesi bulacaksınız.",
-            "Oturum açma verilerini girdikten sonra pencere kapanacak ve oturum açma işlemi başarıyla tamamlanacaktır."
+            "Orada, AniList sekmesinde oturum açma penceresini açacak bir \"Giriş\" düğmesi bulacaksınız.",
+            "Oturum açma verilerini girdikten sonra pencere kapanacak ve giriş işlemi başarıyla tamamlanacaktır."
           ]
         }
       },
@@ -121,12 +121,12 @@
         }
       },
       "detailView": {
-        "airedOn": "Başladı {0}",
+        "airedOn": "Başlangıç: {0}",
         "airedOnTo": "{0} - {1}",
-        "airesFromTo": "Başlayacak {0} - {1}",
-        "airesOn": "Başlayacak {0}",
-        "airingStartedOn": "Başladı {0}",
-        "airingStartsOnDay": "Başlayacak {0}",
+        "airesFromTo": "Başlayacak: {0} - {1}",
+        "airesOn": "Başlayacak: {0}",
+        "airingStartedOn": "Başlangıç: {0}",
+        "airingStartsOnDay": "Başlayacak: {0}",
         "airingStartsInMonthYear": "{0} Ay sonra başlayacak",
         "airingStartsInYear": "{0} Yıl sonra başlayacak",
         "airingTime": "Yayın tarihi",
@@ -239,7 +239,7 @@
   },
   "notifications": {
     "aniList": {
-      "successTitle": "Senkranizasyon başarılı",
+      "successTitle": "Senkronizasyon başarılı",
       "completeUpdateText": "{0} başarıyla tamamlandı Bölüm {1} olarak senkronize edildi.",
       "simpleUpdateText": "{0} başarıyla Bölüm {1} olarak senkronize edildi.",
       "addedToList": "{0} başarıyla listenize eklendi.",
@@ -250,7 +250,7 @@
     "aniList": {
       "listStatusses": {
         "completed": "Tamamlananlar",
-        "dropped": "Bırakılalar",
+        "dropped": "Bırakılanlar",
         "paused": "Ara verilenler",
         "planning": "Planlananlar",
         "repeating": "Tekrarlananlar",
@@ -329,8 +329,8 @@
     "text": "Sayın ZeroTwo kullanıcıları\nDiscord sunucusunun güncelleme bilgilerini takip eden kişiler zaten bir süredir ZeroTwo adını değiştirmeyi planladığımı biliyorlar.\nZeroTwo'yu yeniden adlandırmanın nedeni, kendi kişisel duygularıma göre yeni ismin daha doğal ve daha rahat gelmesi.\nDiscord üzerinde yapılan bir anketle, çoğunluk mikazuki.moe'yi yeni alan adı olarak kullanmaya karar verdi.\n7 Nisan 2020'den itibaren zerotwo.org kullanımdan kaldırılacak ve artık ulaşılamayacak, ancak mikazuki.moe bugünden itibaren erişilebilir olacak.\nArtık Mikazuki olarak adlandırılan ZeroTwo'yu kullanmaya devam etmek için lütfen mikazuki.moe'ya geçin.\nZerotwo.org'dan mikazuki.moe'ye veri aktaramayacağınız için mikazuki.moe'da yeniden oturum açmanız gerekeceğini lütfen unutmayın.\nAyrıca, yenileme zamanlayıcı aralığı gibi zerotwo.org'da sahip olduğunuz ayarlarınız sıfırlanacaktır.\n\nNicoAiko\n, Mikazuki ana geliştiricisi."
   },
   "dataPrivacy": {
-    "acceptAll": "Accept all",
-    "headline": "Data usage and collection",
-    "onlyMandatory": "Only mandatory (Opt-out)"
+    "acceptAll": "Tümünü Kabul et",
+    "headline": "Veri kullanım izni",
+    "onlyMandatory": "Sadece gerekliler (Dışında kal)"
   }
 }
