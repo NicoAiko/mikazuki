@@ -45,11 +45,11 @@
       "completed": "終了",
       "dropped": "中止",
       "home": "ホーム",
-      "paused": "一時的中止",
+      "paused": "休止中",
       "planning": "予定",
-      "repeating": "再見",
+      "repeating": "再視聴中",
       "seasonPreview": "シーズン予告",
-      "watching": "見る中"
+      "watching": "視聴中"
     },
     "search": "検索",
     "settings": {
