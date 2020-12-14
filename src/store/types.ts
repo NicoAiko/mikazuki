@@ -18,6 +18,7 @@ export interface AppState {
 }
 
 export interface UserSettingsState {
+  _matomoConsent: boolean | null;
   _refreshRate: number;
   _session: IAniListSession;
 }

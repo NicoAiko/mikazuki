@@ -8,6 +8,8 @@
     <!-- <TopButton /> -->
 
     <settings :dialog.sync="settingsDialog" />
+
+    <matomo-dialog v-if="matomoConsent === null" />
   </v-app>
 </template>
 
@@ -24,9 +26,11 @@ import ZeroTwoNotifications from '@/components/Notifications.vue';
 import NavigationDrawer from '@/components/NavigationDrawer.vue';
 import Settings from '@/components/Settings/Dialogue.vue';
 import MobileNavDrawerButton from '@/components/MobileNavDrawerButton.vue';
+import MatomoDialog from './MatomoDialog.vue';
 
 @Component({
   components: {
+    MatomoDialog,
     Navigation,
     NavigationDrawer,
     TopButton,
@@ -36,7 +40,7 @@ import MobileNavDrawerButton from '@/components/MobileNavDrawerButton.vue';
   },
   computed: {
     ...mapGetters('app', ['language', 'darkMode']),
-    ...mapGetters('userSettings', ['isAuthenticated', 'refreshRate']),
+    ...mapGetters('userSettings', ['isAuthenticated', 'refreshRate', 'matomoConsent']),
   },
 })
 export default class App extends Vue {
@@ -45,6 +49,7 @@ export default class App extends Vue {
   readonly darkMode!: boolean;
   readonly isAuthenticated!: boolean;
   readonly refreshRate!: number;
+  readonly matomoConsent!: boolean | null;
   settingsDialog: boolean = false;
   drawer: boolean = false;
 
@@ -96,6 +101,10 @@ export default class App extends Vue {
     this.$vuetify.rtl = this.isRTLLanguage(this.$i18n.locale);
 
     moment.locale(this.$i18n.locale);
+
+    if (this.matomoConsent === true) {
+      this.$matomo?.trackPageView();
+    }
 
     if (this.isAuthenticated) {
       this.refreshTimer.setRefreshRate(this.refreshRate).restartTimer();

@@ -327,5 +327,10 @@
   "transfer": {
     "title": "ZeroTwo será Mikazuki",
     "text": "Caros usuários da ZeroTwo\nAqueles que seguem as informações no nosso servidor do Discord certamente já sabem que tenho planos para renomear o projeto ZeroTwo há algum tempo.\nA razão para renomear ZeroTwo é simplesmente por quê o novo nome é mais neutro e mais confortável ao que diz respeito aos meus próprios sentimentos pessoais.\nApós fazer uma votação no Discord, foi decidido, por uma maioria, para utilizar mikazuki.moe como o novo domínio.\nA partir de 7 de abril de 2020, zerotwo.org será descontinuado e não será mais accessível enquanto mikazuki.moe está disponível a partir de hoje.\nPara continuar a usar ZeroTwo, agora sendo chamado de Mikazuki, por favor mude para mikazuki.moe.\nLembre-se que você terá que fazer o login novamente em mikazuki.moe, pois você não pode transferir dados do zerotwo.org para mikazuki.moe.\nAlias também as configurações que você tinha no zerotwo.org, como o intervalo do refresh timer, terão que ser redefinidas.\n\nNicoAiko\nDesenvolvedor principal do Mikazuki"
+  },
+  "dataPrivacy": {
+    "acceptAll": "Accept all",
+    "headline": "Data usage and collection",
+    "onlyMandatory": "Only mandatory (Opt-out)"
   }
 }

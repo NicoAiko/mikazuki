@@ -1,4 +1,5 @@
 import Vue from 'vue';
+import VueMatomo from 'vue-matomo';
 import Notification from 'vue-notification';
 import Vuetify from 'vuetify';
 import './registerServiceWorker';
@@ -9,6 +10,7 @@ import { i18n } from './i18n';
 import router from './router';
 import store from './store';
 import AniListAPI from './plugins/AniList';
+import MatomoOptions from './plugins/Matomo';
 
 // Styles & Fonts
 import '@/assets/scss/extra.scss';
@@ -26,6 +28,10 @@ const vuetify = new Vuetify({
 
 Vue.use(Notification);
 Vue.use(AniListAPI);
+
+if (process.env.VUE_APP_USE_MATOMO) {
+  Vue.use(VueMatomo, MatomoOptions);
+}
 
 Vue.config.productionTip = false;
 

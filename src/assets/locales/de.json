@@ -327,5 +327,10 @@
   "transfer": {
     "title": "ZeroTwo wird Mikazuki",
     "text": "Liebe Benutzer von ZeroTwo,\nwer die Infos auf dem Discord-Server verfolgt hat, wird sicher bereits wissen, dass eine Umbenennung schon eine Weile im Raum stand.\nDer Grund für die Umbenennung war nach eigenem Ermessen und persönlichem Gefühl, unabhängiger und neutraler zu sein, getroffen worden.\nNach einer Abstimmung auf Discord wurde entschieden, die Domain, mikazuki.moe, zu sichern und zu nutzen.\nAm 7. April 2020 wird zerotwo.org abgeschaltet und kann nicht mehr für ZeroTwo, fortwährend dann Mikazuki, benutzt werden.\nBitte wechselt dementsprechend ab sofort auf mikazuki.moe um.\nAußerdem muss beachtet werden, dass beim Wechsel auf mikazuki.moe der Login erneut durchgeführt und die Einstellungen von zerotwo.org nicht übernommen werden.\n\nNicoAiko\nMikazuki-Entwickler"
+  },
+  "dataPrivacy": {
+    "acceptAll": "Alle akzeptieren",
+    "headline": "Datenschutz relevante Nutzung und Sammlung",
+    "onlyMandatory": "Ablehnen (Opt-out)"
   }
 }

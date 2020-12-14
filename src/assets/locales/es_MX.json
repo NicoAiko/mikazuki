@@ -117,7 +117,7 @@
         "notYetAired": "Aún no emitido",
         "nextAiringEpisode": "El episodio {0} se emitirá el {1}",
         "scoreDialog": {
-         "title": "Cambiar puntuación"
+          "title": "Cambiar puntuación"
         }
       },
       "detailView": {
@@ -327,5 +327,10 @@
   "transfer": {
     "title": "ZeroTwo se convierte en Mikazuki",
     "text": "Queridos usuarios de ZeroTwo\nLas personas que siguen la información de actualizaciones en el servidor de Discord ya deben saber que he tenido planes de renombrar ZeroTwo desde hace un tiempo.\nLa razón para renombrar ZeroTwo es simplemente que el nuevo nombre simplemente es más neutral y más cómodo, en cuanto se refiere a mis sentimientos personales.\nUsando una encuesta en Discord, se decidió por mayoría usar mikazuki.moe como el nuevo dominio\nComenzando el 7 de April de 2020, zerotwo.org será discontinuada y no será posible acceder, mientras que mikazuki.moe ya está disponible hoy.\nPara continuar usando ZeroTwo, ahora llamada Mikazuki, por favor diríjase a mikazuki.moe.\nTenga en consideración que tendrá que volver a iniciar sesión en mikazuki.moe, ya que no se pueden transferir esos datos desde zerotwo.org a mikazuki.moe.\nSus configuraciones, como por ejemplo el intervalo de refresco, deben ser configurados nuevamente.\n\nNicoAiko\nDesarrollador principal de Mikazuki"
+  },
+  "dataPrivacy": {
+    "acceptAll": "Accept all",
+    "headline": "Data usage and collection",
+    "onlyMandatory": "Only mandatory (Opt-out)"
   }
 }

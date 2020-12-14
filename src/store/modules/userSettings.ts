@@ -41,6 +41,7 @@ const defaultUser = {
 };
 
 const state: UserSettingsState = {
+  _matomoConsent: null,
   _refreshRate: 15,
   _session: {
     accessToken: '',
@@ -72,6 +73,9 @@ const getters: GetterTree<UserSettingsState, RootState> = {
   username(state): string {
     return state._session.user.name;
   },
+  matomoConsent(state): boolean | null {
+    return state._matomoConsent;
+  },
 };
 
 const mutations: MutationTree<UserSettingsState> = {
@@ -92,6 +96,9 @@ const mutations: MutationTree<UserSettingsState> = {
   },
   setShowExplicitContent(state, value: boolean) {
     state._session.user.options.displayAdultContent = value;
+  },
+  setMatomoConsent(state, value: boolean | null) {
+    state._matomoConsent = value;
   },
 };
 
