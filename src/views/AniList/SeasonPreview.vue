@@ -150,8 +150,8 @@ import { Getter } from '@/decorators';
 export default class SeasonPreview extends Vue {
   isLoading: boolean = false;
   entries: any[] = [];
-  currentYear: number = new Date().getUTCFullYear();
-  nextSeason: AniListSeason = this.getNextSeason();
+  currentYear: number = 0;
+  nextSeason: AniListSeason = AniListSeason.WINTER;
   currentListEntryIds: any[] = [];
   @Getter('aniList') aniListData!: IAniListMediaListCollection;
 
@@ -243,6 +243,8 @@ export default class SeasonPreview extends Vue {
   }
 
   async created() {
+    this.currentYear = new Date().getUTCFullYear();
+    this.nextSeason = this.getCurrentSeason();
     this.currentListEntryIds = this.aniListData.lists
       .map((list) => {
         const ids = list.entries.map((entry) => entry.media.id);
@@ -269,6 +271,30 @@ export default class SeasonPreview extends Vue {
       this.entries = [];
     } finally {
       this.isLoading = false;
+    }
+  }
+
+  getCurrentSeason(): AniListSeason {
+    const currentMonth = new Date().getUTCMonth() + 1;
+
+    switch (currentMonth) {
+      case 1:
+      case 2:
+      case 3:
+        return AniListSeason.WINTER;
+      case 4:
+      case 5:
+      case 6:
+        return AniListSeason.SPRING;
+      case 7:
+      case 8:
+      case 9:
+        return AniListSeason.SUMMER;
+      case 10:
+      case 11:
+      case 12:
+      default:
+        return AniListSeason.FALL;
     }
   }
 
