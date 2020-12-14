@@ -327,5 +327,10 @@
   "transfer": {
     "title": "ZeroTwo 更名为 Mikazuki",
     "text": "亲爱的 ZeroTwo 用户\n有关注过我们 Discord 服务器更新信息的用户应该已经有所了解，我早有计划为 ZeroTwo 更名。\n理由很简单，我个人感觉这个新名字会显得更中立、听上去更舒服。\n在 Discord 上发起过一个投票以后，我们敲定，以获得最高票数的 mikazuki.moe 作为我们的新域名。\n新域名 mikazuki.moe 现已可进行访问，而原域名 zerotwo.org 将于 2020 年 4 月 7 日到期，届时将无法再通过原域名进行访问。\n如果您想继续使用 ZeroTwo（现在应该改叫它 Mikazuki 了），还请移步至 mikazuki.moe。\n请注意，由于无法直接将登录数据从 zerotwo.org 迁至 mikazuki.moe，您需要在 mikazuki.moe 上重新进行登录。\n同样，您在 zerotwo.org 上所修改过的设置，例如刷新时间间隔等，也会被还原成默认状态。\n\nNicoAiko\nMikazuki 主开发者"
+  },
+  "dataPrivacy": {
+    "acceptAll": "Accept all",
+    "headline": "Data usage and collection",
+    "onlyMandatory": "Only mandatory (Opt-out)"
   }
 }

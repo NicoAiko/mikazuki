@@ -11,3 +11,9 @@ export default {
   debug: process.env.NODE_ENV !== 'production',
   domains: process.env.VUE_APP_MATOMO_DOMAINS,
 };
+
+declare module 'vue/types/vue' {
+  interface Vue {
+    $matomo: any;
+  }
+}
