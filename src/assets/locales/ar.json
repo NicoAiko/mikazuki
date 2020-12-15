@@ -26,7 +26,7 @@
     "noInformation": "لا توجد معلومات متاحة.",
     "noSynonyms": "لا توجد مرادفات متاحة.",
     "notYetInList": "هذه الوسائط ليست في قائمتك بعد.",
-    "unauthenticated": "أنت لم موثق!",
+    "unauthenticated": "أنت غير موثق!",
     "unknown": "غير معروف"
   },
   "errors": {
@@ -41,13 +41,13 @@
     },
     "aniList": {
       "completed": "منتهى",
-      "dropped": "إسقاط",
+      "dropped": "تم إسقاطه",
       "home": "الصحفة الرئيسية",
-      "paused": "توقف",
-      "planning": "خطة المشاهدة",
+      "paused": "متوقف",
+      "planning": "اخطط لمشاهدته",
       "repeating": "تكرار",
       "seasonPreview": "معاينة الموسم",
-      "watching": "مشاهدة"
+      "watching": "أشاهده حالياً"
     },
     "search": "بحث مفصل",
     "settings": {
@@ -67,7 +67,7 @@
       },
       "sortingLabel": "فرز حسب",
       "title": "الاسم",
-      "score": "درجة",
+      "score": "التقييم",
       "progress": "التقدم",
       "startingDate": "تاريخ البدء",
       "episodeAmount": "كمية أحداث"
@@ -91,19 +91,19 @@
             "genreOverview": "نظرة عامة علي الفئات"
           },
           "headline": "أحدث الأنشطة",
-          "completed": "منجز {0}",
-          "plansToWatch": "مخطط للمشاهدة {0}",
+          "completed": "قام بإنهاء {0}",
+          "plansToWatch": "يخطط لمشاهدة {0}",
           "watchedEpisode": "شاهد الحلقة {1} من {0}",
           "dropped": "توقفت {0}",
-          "rewatchedEpisode": "حلق المشاهدة الحلقة {1} من {0}",
-          "pausedWatching": "توقف المشاهدة {0}",
-          "readChapter": "قرأت الفصل {1} من {0}",
-          "plansToRead": "خطط لقرء {0}",
-          "rereadChapter": "حلق القراءة الفصل {1} من {0}",
-          "pausedReading": "توقف القراءة {1}"
+          "rewatchedEpisode": "اعاد مشاهدة الحلقة {1} من {0}",
+          "pausedWatching": "أوقف مشاهدة {0}",
+          "readChapter": "قام بقراءة الفصل {1} من {0}",
+          "plansToRead": "يخطط لقراءة {0}",
+          "rereadChapter": "أعاد قراءة الفصل {1} من {0}",
+          "pausedReading": "اوقف قراءة {1}"
         },
         "howToAuthenticate": {
-          "header": "خطوة لتسجيل الدخول:",
+          "header": "خطوات تسجيل الدخول:",
           "text": [
             "يرجى الانتقل إلى صحيفة الإعدادات (سن العجلة فى زاوية العليا اليمنى) وانتقال الى تبويب \"AniList\".",
             "هناك ستجب زر \"تسجيل الدخول\" الذي سيفتح موقع دخول AniList.",
@@ -162,7 +162,7 @@
         "hint": "المساعدة في إدارة البحث للعثور على الوسائط التي لم تكن على قائمتك"
       },
       "genres": {
-        "label": "أنواء",
+        "label": "الانواع",
         "hint": "ماكس 3",
         "noMatch": "لا يوجد نوع \"<strong>{0}</strong>\" مطابقة. اضغط <kbd>ENTER</kbd> لإنشاء فإنه."
       }
@@ -225,12 +225,12 @@
   "routes": {
     "aniList": {
       "home": "الصحفة الرئيسية",
-      "watching": "مشاهدة",
+      "watching": "أشاهده حالياً",
       "repeating": "تكرار",
       "completed": "منتهى",
-      "paused": "توقف",
-      "dropped": "إسقاط",
-      "planning": "خطة المشاهدة"
+      "paused": "متوقف",
+      "dropped": "تم إسقاطه",
+      "planning": "أخطط لمشاهدته"
     },
     "detailView": "رؤية التفاصيل",
     "search": "بحث",
@@ -250,11 +250,11 @@
     "aniList": {
       "listStatusses": {
         "completed": "منتهى",
-        "dropped": "إسقاط",
-        "paused": "توقف",
-        "planning": "خطة المشاهدة",
+        "dropped": "تم إسقاطه",
+        "paused": "متوقف",
+        "planning": "أخطط لمشاهدته",
         "repeating": "تكرار",
-        "watching": "مشاهدة"
+        "watching": "أشاهده حالياً"
       },
       "seasons": {
         "spring": "الربيع",
