@@ -18,8 +18,8 @@
     "search": "検索",
     "sort": "並べる",
     "toPageTop": "トップへ",
-    "putOnRepeatList": "リピートリストに移動する",
-    "revertToAiringList": "「見る」リストに戻す"
+    "putOnRepeatList": "再視聴中リストに移動する",
+    "revertToAiringList": "「視聴中」リストに戻す"
   },
   "alerts": {
     "adultContent": "１８禁コンテンツです！ご注意下さい！",
