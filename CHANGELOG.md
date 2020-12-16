@@ -1,3 +1,15 @@
+## v0.8.2
+
+### NEW FEATURES
+- Add Matomo for anonymous statistics
+
+### UPDATED
+- Improve Arabic, Japanese and Turkish translations
+- Update App Logo
+
+
+---
+
 ## v0.8.1
 
 ### NEW FEATURES

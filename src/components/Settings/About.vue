@@ -32,7 +32,7 @@
       </v-col>
 
       <v-col cols="4" align-self="center">
-        <image-link :link="appHomepage" :image="require('@/assets/logos/AppIcon.png')" image-text="Mikazuki" />
+        <image-link :link="appHomepage" :image="require('@/assets/logos/Mikazuki.svg')" image-text="Mikazuki" />
       </v-col>
 
       <v-col cols="4" align-self="center">
