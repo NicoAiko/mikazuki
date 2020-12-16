@@ -136,9 +136,13 @@ export default class MatomoDialog extends Vue {
   }
 
   giveConsent() {
-    this.$matomo.rememberConsentGiven();
-    this.$matomo.trackPageView();
-    this.$store.commit('userSettings/setMatomoConsent', true);
+    try {
+      this.$matomo.rememberConsentGiven();
+      this.$matomo.trackPageView();
+      this.$store.commit('userSettings/setMatomoConsent', true);
+    } catch (e) {
+      alert('Consent could not be given! Please check your AdBlocker data and allow [piwik.]nicoaiko.de as source!');
+    }
   }
 
   denyConsent() {
