@@ -17,7 +17,9 @@
     "save": "Guardar",
     "search": "Buscar",
     "sort": "Ordenar",
-    "toPageTop": "Ir al inicio de la página"
+    "toPageTop": "Ir al inicio de la página",
+    "putOnRepeatList": "Put on repeat list",
+    "revertToAiringList": "Revert to airing list"
   },
   "alerts": {
     "adultContent": "Este contenido es para adultos. Se recomienda discreción.",
@@ -195,7 +197,8 @@
           "subHeadline": "Los cambios en esta preferencia podrían tardar un tiempo hasta entrar en efecto.",
           "userTitleLanguage": "Lenguaje de los títulos",
           "userTitleLanguageHint": "Esta preferencia define qué lenguaje se usará para mostrar los nombres de los títulos."
-        }
+        },
+        "notLoggedIn": "You're currently not logged in! Please do so by clicking on the \"Login\" button below."
       },
       "appSettings": {
         "chooseLanguage": "Elija lenguaje",

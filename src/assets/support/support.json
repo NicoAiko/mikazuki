@@ -31,6 +31,10 @@
     "icons": ["tr"],
     "name": "Uxell",
     "message": "Thanks for providing and improving the Turkish localisation."
+  }, {
+    "icons": ["jp"],
+    "name": "絶対幸福主義",
+    "message": "Thanks for improving the Japanese localisation."
   }],
   "support": [{
     "icon": "coffee",

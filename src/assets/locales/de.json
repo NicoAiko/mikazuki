@@ -17,7 +17,9 @@
     "save": "Speichern",
     "search": "Suchen",
     "sort": "Sortieren",
-    "toPageTop": "Zum Anfang springen"
+    "toPageTop": "Zum Anfang springen",
+    "putOnRepeatList": "Auf die Wiederholen-Liste setzen",
+    "revertToAiringList": "Zurück auf die Laufend-Liste setzen"
   },
   "alerts": {
     "adultContent": "Dieses Element ist für Jugendliche unter 18 Jahren ungeeignet!",
@@ -195,7 +197,8 @@
           "subHeadline": "Diese Einstellungen könnten möglicherweise einige Minuten benötigen, bis die Änderungen wirken!",
           "userTitleLanguage": "Titelsprache",
           "userTitleLanguageHint": "Diese Einstellung ändert das Sprachformat für Medientitel."
-        }
+        },
+        "notLoggedIn": "Du bist aktuell nicht eingeloggt! Bitte klicke dafür auf \"Login\"."
       },
       "appSettings": {
         "chooseLanguage": "Sprache wählen (Choose language)",

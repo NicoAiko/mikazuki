@@ -17,7 +17,9 @@
     "save": "保存",
     "search": "検索",
     "sort": "並べる",
-    "toPageTop": "トップへ"
+    "toPageTop": "トップへ",
+    "putOnRepeatList": "再視聴中リストに移動する",
+    "revertToAiringList": "「視聴中」リストに戻す"
   },
   "alerts": {
     "adultContent": "１８禁コンテンツです！ご注意下さい！",
@@ -43,11 +45,11 @@
       "completed": "終了",
       "dropped": "中止",
       "home": "ホーム",
-      "paused": "一時的中止",
+      "paused": "休止中",
       "planning": "予定",
-      "repeating": "再見",
+      "repeating": "再視聴中",
       "seasonPreview": "シーズン予告",
-      "watching": "見る中"
+      "watching": "視聴中"
     },
     "search": "検索",
     "settings": {
@@ -195,7 +197,8 @@
           "subHeadline": "この設定を変えれば、効能が現れるのは数分掛かるかもしれません。",
           "userTitleLanguage": "タイトルの言語",
           "userTitleLanguageHint": "この設定は、メディアのタイトルの言語フォーマットを変える。"
-        }
+        },
+        "notLoggedIn": "現在、ログインしていません。そうするために、下の「ログイン」ボタンをクリックしてください。"
       },
       "appSettings": {
         "chooseLanguage": "言語を選択してください (Choose language)",

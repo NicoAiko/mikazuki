@@ -17,7 +17,9 @@
     "save": "Kaydet",
     "search": "Ara",
     "sort": "Sırala",
-    "toPageTop": "En üste çık"
+    "toPageTop": "En üste çık",
+    "putOnRepeatList": "Tekrarlananlar listesine ekle",
+    "revertToAiringList": "İzleniyor listesine geri al"
   },
   "alerts": {
     "adultContent": "Bu medya yetişkin içeriği olarak kabul edilir! İzleyici takdirine göre tedbiri önerilir.",
@@ -68,7 +70,7 @@
       "sortingLabel": "Sırala",
       "title": "Başlığa göre",
       "score": "Puana göre",
-      "episodes": "Bölüm sayısına göre",
+      "progress": "Bölüm sayısına göre",
       "startingDate": "Başlama tarihi",
       "episodeAmount": "Bölüm sayısı"
     }
@@ -195,7 +197,8 @@
           "scoringFormatHint": "Bu ayar animelerin nasıl puanlanacağını tanımlar.",
           "showExplicitContent": "Yetişkin içeriği göster (+18 içerik)",
           "showExplicitContentHint": "Bu ayar yetişkin içeriğin (+18) gösterilme durumunu tanımlar."
-        }
+        },
+        "notLoggedIn": "Henüz giriş yapmadınız! Lütfen aşağıdaki \"Giriş\" tuşuna basarak işleminizi tamamlayın."
       },
       "appSettings": {
         "chooseLanguage": "Dil seç",

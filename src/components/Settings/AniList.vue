@@ -2,7 +2,7 @@
   <v-container fluid class="py-0">
     <template v-if="!isAuthenticated">
       <div class="py-1">
-        <p>You're currently not logged in! Please do so by clicking on the "Login" button below.</p>
+        <p>{{ $t('pages.settings.aniList.notLoggedIn') }}</p>
         <v-btn block color="primary" @click="login" v-text="$t('actions.login')" />
       </div>
     </template>

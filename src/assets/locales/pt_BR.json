@@ -17,7 +17,9 @@
     "save": "Salvar",
     "search": "Pesquisar",
     "sort": "Ordenar",
-    "toPageTop": "Ir para o topo"
+    "toPageTop": "Ir para o topo",
+    "putOnRepeatList": "Colocar em Reassistindo",
+    "revertToAiringList": "Reverter para lista de exibição"
   },
   "alerts": {
     "adultContent": "Esta mídia contém conteúdo adulto! É aconselhável a discrição dos espectadores.",
@@ -195,7 +197,8 @@
           "subHeadline": "Alterar essas configurações podem levar algum tempo até terem efeito!",
           "userTitleLanguage": "Idioma do Título",
           "userTitleLanguageHint": "Esta configuração define qual título é usado para exibir o nome da mídia."
-        }
+        },
+        "notLoggedIn": "Você não está logado no momento! Por favor faça isso clicando no botão \"Login\" abaixo."
       },
       "appSettings": {
         "chooseLanguage": "Selecionar idioma",

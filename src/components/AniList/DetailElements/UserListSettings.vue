@@ -197,7 +197,7 @@ export default class UserListSettings extends Vue {
       try {
         let completedAt = undefined;
         let startedAt = undefined;
-        let notification = '';
+        let notification = 'simpleUpdateText';
         const now = new Date();
 
         if (status === AniListListStatus.CURRENT) {
@@ -206,7 +206,6 @@ export default class UserListSettings extends Vue {
             month: now.getUTCMonth() + 1,
             day: now.getUTCDate(),
           };
-          notification = 'simpleUpdateText';
         } else if (status === AniListListStatus.COMPLETED) {
           completedAt = {
             year: now.getUTCFullYear(),
