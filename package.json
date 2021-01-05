@@ -9,7 +9,7 @@
     "lint": "vue-cli-service lint --no-fix"
   },
   "dependencies": {
-    "axios": "^0.21.0",
+    "axios": "^0.21.1",
     "core-js": "^3.8.1",
     "flag-icon-css": "^3.5.0",
     "graphql": "^15.4.0",
