@@ -22,7 +22,7 @@
     "revertToAiringList": "「視聴中」リストに戻す"
   },
   "alerts": {
-    "adultContent": "１８禁コンテンツです！ご注意下さい！",
+    "adultContent": "１８禁作品です！ご注意下さい！",
     "noDescription": "内容説明はありません。",
     "noEnglishTitle": "英語のタイトルはありません。",
     "noInformation": "情報がありません。",
@@ -46,9 +46,9 @@
       "dropped": "中止",
       "home": "ホーム",
       "paused": "休止中",
-      "planning": "予定",
+      "planning": "予定中",
       "repeating": "再視聴中",
-      "seasonPreview": "シーズン予告",
+      "seasonPreview": "今季一覧",
       "watching": "視聴中"
     },
     "search": "検索",
@@ -57,8 +57,8 @@
       "about": "三日月について",
       "aniList": "AniList",
       "appSettings": "環境設定",
-      "changelog": "最新更新情報",
-      "specialThanks": "特別挨拶"
+      "changelog": "最近の更新",
+      "specialThanks": "スペシャルサンクス"
     }
   },
   "components": {
@@ -69,8 +69,8 @@
       },
       "sortingLabel": "並べる",
       "title": "タイトル",
-      "score": "スコア",
-      "progress": "進行",
+      "score": "評価",
+      "progress": "進捗",
       "startingDate": "放送開始日",
       "episodeAmount": "エピソード数"
     }
@@ -97,12 +97,12 @@
           "plansToWatch": "{0}を予定リストに追加しました",
           "watchedEpisode": "{0}の第{1}話を見ました",
           "dropped": "{0}を中止しました",
-          "rewatchedEpisode": "{0}の第{1}話を再見しました",
-          "pausedWatching": "{0}を一時的中止しました",
+          "rewatchedEpisode": "{0}の第{1}話を再視聴しました",
+          "pausedWatching": "{0}を休止します",
           "readChapter": "{0}の第{1}巻を読みました",
           "plansToRead": "{0}を読み予定リストに追加しました",
           "rereadChapter": "{0}の第{1}巻を再読みました",
-          "pausedReading": "{0}を一時的中止しました"
+          "pausedReading": "{0}を休止します"
         },
         "howToAuthenticate": {
           "header": "身分確認（ログイン方法）：",
@@ -131,22 +131,22 @@
         "airingStartsOnDay": "{0}に始まる",
         "airingStartsInMonthYear": "{0}に始まる",
         "airingStartsInYear": "{0}に始まる",
-        "airingTime": "最初放送",
+        "airingTime": "最初の放送",
         "airingWithUnknownStart": "？ - {0}",
         "description": "内容",
-        "englishTitle": "英語のタイトル",
-        "episodes": "エピソード数",
+        "englishTitle": "英題",
+        "episodes": "話数",
         "genres": "ジャンル",
-        "nativeTitle": "ネイティブ・タイトル",
+        "nativeTitle": "原題",
         "ownInformation": "自分のリストの情報",
         "ownProgress": "進行",
         "ownStatus": "ステータス",
-        "ownScore": "スコア",
-        "romajiTitle": "ローマ字・タイトル",
-        "score": "{1}点満点の{0}点",
-        "scoreLabel": "平均値点",
-        "streamingSubheader": "放送サービス（英語）",
-        "synonyms": "シノニム"
+        "ownScore": "評価",
+        "romajiTitle": "ローマ字の題名",
+        "score": "{1}点満点で{0}点",
+        "scoreLabel": "平均点",
+        "streamingSubheader": "配信サービス（英語）",
+        "synonyms": "別の表記"
       }
     },
     "search": {
@@ -154,10 +154,10 @@
       "searchFilter": "検索フィルター",
       "adultContent": {
         "label": "１８禁",
-        "hint": "１８禁コンテンツと普通のを探したければ、空白のままにしてください。",
+        "hint": "１８禁作品と普通のを探したければ、空白のままにしてください。",
         "both": "フィルターなし",
-        "onlyNonAdult": "不１８禁コンテンツのみ",
-        "onlyAdult": "１８禁コンテンツのみ"
+        "onlyNonAdult": "非１８禁作品のみ",
+        "onlyAdult": "１８禁作品のみ"
       },
       "inList": {
         "label": "リストの中",
@@ -174,7 +174,7 @@
       "startDate": "放送開始日：",
       "updateDialog": {
         "season": "放送季節",
-        "title": "シーズン予告パラメートル",
+        "title": "年度と季節の選択",
         "yearOfSeason": "年"
       }
     },
@@ -190,10 +190,10 @@
         "refreshRateHint": "このインターバルは「AniList」のサーバーとの次の更新までの時間を決まります。変更したインターバルは次の更新から発動します。",
         "userAccountSettings": {
           "headline": "AniListユーザーアカウント設定",
-          "scoringFormat": "スコア・フォーマット",
-          "scoringFormatHint": "この設定は、リストエントリのスコア・フォーマットを変わります。",
-          "showExplicitContent": "１８禁内容を表示",
-          "showExplicitContentHint": "この設定は、１８禁の内容の表示モードを変える。",
+          "scoringFormat": "評価・フォーマット",
+          "scoringFormatHint": "この設定は、リストエントリの評価・フォーマットを変わります。",
+          "showExplicitContent": "１８禁作品を表示",
+          "showExplicitContentHint": "この設定は、１８禁の作品の表示モードを変える。",
           "subHeadline": "この設定を変えれば、効能が現れるのは数分掛かるかもしれません。",
           "userTitleLanguage": "タイトルの言語",
           "userTitleLanguageHint": "この設定は、メディアのタイトルの言語フォーマットを変える。"
@@ -217,7 +217,7 @@
         "fix": "直し",
         "remove": "削除",
         "version": "バージョン",
-        "changesIn": "{0}の最新更新情報"
+        "changesIn": "{0}の更新情報"
       },
       "specialThanks": {
         "supporters": "サポーター",
@@ -228,16 +228,16 @@
   "routes": {
     "aniList": {
       "home": "ホーム",
-      "watching": "見る中",
-      "repeating": "再見",
+      "watching": "視聴中",
+      "repeating": "再視聴中",
       "completed": "終了",
-      "paused": "一時的中止",
+      "paused": "休止中",
       "dropped": "中止",
-      "planning": "予定"
+      "planning": "予定中"
     },
     "detailView": "インフォーメーション",
     "search": "検索",
-    "seasonPreview": "シーズン予告",
+    "seasonPreview": "今季一覧",
     "settings": "環境設定"
   },
   "notifications": {
@@ -254,10 +254,10 @@
       "listStatusses": {
         "completed": "終了",
         "dropped": "中止",
-        "paused": "一時的中止",
-        "planning": "予定",
-        "repeating": "再見",
-        "watching": "見る中"
+        "paused": "休止中",
+        "planning": "予定中",
+        "repeating": "再視聴中",
+        "watching": "視聴中"
       },
       "seasons": {
         "spring": "春",
@@ -277,8 +277,8 @@
         "titleLanguages": {
           "ENGLISH": "英語名（How to keep a mummy）",
           "ENGLISH_STYLISED": "様式化の英語",
-          "NATIVE": "ネイティブ （ミイラの飼い方）",
-          "NATIVE_STYLISED": "様式化のネイティブ名",
+          "NATIVE": "原題 （ミイラの飼い方）",
+          "NATIVE_STYLISED": "様式化の原題",
           "ROMAJI": "ローマ字　（Miira no Kaikata）",
           "ROMAJI_STYLISED": "様式化のローマ字"
         }
@@ -314,8 +314,8 @@
     },
     "sorting": {
       "by": {
-        "episodes": "エピソード",
-        "score": "スコア",
+        "episodes": "話",
+        "score": "評価",
         "title": "タイトル"
       },
       "direction": {
@@ -325,7 +325,7 @@
     }
   },
   "$vuetify": {
-    "noDataText": "データ無し"
+    "noDataText": "データがありません"
   },
   "transfer": {
     "title": "ZeroTwoは「三日月」（みかづき）になる",
