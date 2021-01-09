@@ -1,3 +1,12 @@
+## v0.8.3
+
+### UPDATED
+- Improved Japanese localisation
+- Update packages
+- Slight Style changes due to updates in styling dependency package
+
+---
+
 ## v0.8.2
 
 ### NEW FEATURES

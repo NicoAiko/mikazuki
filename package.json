@@ -1,6 +1,6 @@
 {
   "name": "mikazuki",
-  "version": "0.8.2",
+  "version": "0.8.3",
   "description": "AniList Listing Management app of the future",
   "author": "Nico Linnemann <contact@mikazuki.moe>",
   "scripts": {
