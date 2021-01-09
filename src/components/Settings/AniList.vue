@@ -29,8 +29,10 @@
       </v-row>
 
       <v-container fluid class="px-0">
-        <h1>{{ $t('pages.settings.aniList.userAccountSettings.headline') }}</h1>
-        <h4 class="warning--text pt-1">{{ $t('pages.settings.aniList.userAccountSettings.subHeadline') }}</h4>
+        <div class="text-h5 pb-0">{{ $t('pages.settings.aniList.userAccountSettings.headline') }}</div>
+        <div class="text-subtitle-1 warning--text pt-0">
+          {{ $t('pages.settings.aniList.userAccountSettings.subHeadline') }}
+        </div>
         <v-row>
           <v-col cols="12" md="6">
             <user-title-language :user-title-language="titleLanguage" />

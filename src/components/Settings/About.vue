@@ -1,14 +1,14 @@
 <template>
   <v-container fluid class="py-0">
-    <h1 class="text-center">{{ $t('menus.settings.about') }}</h1>
+    <div class="text-h5 text-center mb-4">{{ $t('menus.settings.about') }}</div>
     <v-row>
       <v-col cols="12">
-        <h1 class="text-h3 text-center">
+        <div class="text-h3 text-center">
           {{ $t('pages.settings.about.version') }}
-        </h1>
-        <h1 class="text-h1 text-center">
+        </div>
+        <div class="text-h1 text-center">
           {{ currentAppVersion }}
-        </h1>
+        </div>
       </v-col>
 
       <v-col cols="4" align-self="center">

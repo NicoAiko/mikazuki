@@ -1,10 +1,10 @@
 <template>
   <v-container fluid class="py-0 force-ltr">
-    <h1 class="pb-1">{{ $t('pages.settings.specialThanks.translators') }}</h1>
+    <div class="text-h5 pb-1">{{ $t('pages.settings.specialThanks.translators') }}</div>
 
     <v-row>
       <v-col cols="12" md="6" class="py-1" v-for="(item, index) in translators" :key="`translator_${index}`">
-        <h4 class="py-1">
+        <div class="text-h6 py-1">
           <v-icon
             v-for="(icon, i) in item.icons"
             :key="`translator_${index}_icon_${i}`"
@@ -12,19 +12,19 @@
             :class="`flag-icon flag-icon-${icon}`"
           />
           <span class="title">{{ item.name }}</span>
-        </h4>
+        </div>
         <div class="body-2">{{ item.message }}</div>
       </v-col>
     </v-row>
 
-    <h1 class="pt-8 pb-1">{{ $t('pages.settings.specialThanks.supporters') }}</h1>
+    <div class="text-h5 pb-1 mt-4">{{ $t('pages.settings.specialThanks.supporters') }}</div>
 
     <v-row>
       <v-col cols="12" md="6" class="pa-2" v-for="(item, index) in supporters" :key="`supporter_${index}`">
-        <h4 class="py-1">
+        <div class="text-h6 py-1">
           <v-icon left v-text="`mdi-${item.icon}`" />
           <span class="title">{{ item.name }}</span>
-        </h4>
+        </div>
         <div class="body-2">{{ item.message }}</div>
       </v-col>
     </v-row>

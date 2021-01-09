@@ -235,7 +235,7 @@ export default class ListImage extends Vue {
       background-color: rgba(255, 255, 255, 0.85);
     }
     position: absolute;
-    bottom: 0;
+    bottom: 9px;
     width: 100%;
     max-height: 48px;
     transition: 0.25s ease-in-out;
@@ -248,7 +248,7 @@ export default class ListImage extends Vue {
       background-color: rgba(255, 255, 255, 0.85);
     }
     position: absolute;
-    bottom: 0;
+    bottom: 9px;
     width: 100%;
     transition: 0.25s ease-in-out;
   }

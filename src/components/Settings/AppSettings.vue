@@ -1,6 +1,6 @@
 <template>
   <v-container fluid class="py-0">
-    <h1 class="headline">{{ $t('menus.settings.appSettings') }}</h1>
+    <div class="headline">{{ $t('menus.settings.appSettings') }}</div>
     <v-row>
       <v-col cols="12" md="5" order="2">
         <v-row dense>
@@ -15,7 +15,9 @@
           </v-col>
 
           <v-col cols="12">
-            <h3>{{ $t('pages.settings.appSettings.navigationActiveItemColour') }}</h3>
+            <div class="text-subtitle-1 font-weight-bold">
+              {{ $t('pages.settings.appSettings.navigationActiveItemColour') }}
+            </div>
             <v-chip-group v-model="_navigationDrawerListItemColor" column mandatory active-class="primary--text">
               <v-chip small value="auto">
                 <v-icon left small :color="darkMode ? 'white' : 'black'" v-text="'mdi-circle'" />
@@ -33,7 +35,9 @@
           </v-col>
 
           <v-col cols="12">
-            <h3>{{ $t('pages.settings.appSettings.navigationBackgroundBrightness') }}</h3>
+            <div class="text-subtitle-1 font-weight-bold">
+              {{ $t('pages.settings.appSettings.navigationBackgroundBrightness') }}
+            </div>
             <v-slider
               v-model="_brightness"
               thumb-label
@@ -46,7 +50,9 @@
           </v-col>
 
           <v-col cols="12">
-            <h3>{{ $t('pages.settings.appSettings.navigationBackgroundBlurriness') }}</h3>
+            <div class="text-subtitle-1 font-weight-bold">
+              {{ $t('pages.settings.appSettings.navigationBackgroundBlurriness') }}
+            </div>
             <v-slider
               v-model="_blurriness"
               thumb-label
@@ -63,7 +69,9 @@
       <v-col cols="12" md="7" order="1">
         <v-row dense>
           <v-col cols="12">
-            <h3>{{ $t('pages.settings.appSettings.chooseLanguage') }}</h3>
+            <div class="text-subtitle-1 font-weight-bold">
+              {{ $t('pages.settings.appSettings.chooseLanguage') }}
+            </div>
             <v-select v-model="_language" :items="languages" hide-details menu-props="auto, offset-y" class="py-1 ma-0">
               <template #item="{ item }">
                 <v-icon v-if="item.flag" :class="item.flag" :left="!$vuetify.rtl" :right="$vuetify.rtl" />
@@ -91,7 +99,9 @@
           </v-col>
 
           <v-col cols="12">
-            <h3>{{ $t('pages.settings.appSettings.initialListItemAmount') }}</h3>
+            <div class="text-subtitle-1 font-weight-bold">
+              {{ $t('pages.settings.appSettings.initialListItemAmount') }}
+            </div>
             <v-slider
               v-model="_initialListItemAmount"
               :label="`${_initialListItemAmount}`"
@@ -105,8 +115,10 @@
           </v-col>
 
           <v-col cols="12">
-            <h3>{{ $t('pages.settings.appSettings.listAnimationActivity.headline') }}</h3>
-            <h5>{{ $t('pages.settings.appSettings.listAnimationActivity.subtitle') }}</h5>
+            <div class="text-subtitle-1 font-weight-bold">
+              {{ $t('pages.settings.appSettings.listAnimationActivity.headline') }}
+            </div>
+            <div class="text-subtitle-2">{{ $t('pages.settings.appSettings.listAnimationActivity.subtitle') }}</div>
             <v-chip-group v-model="_forceDisableAnimationAmount" column mandatory active-class="primary--text">
               <v-chip filter small :value="-1">{{ $t('misc.status.disabled') }}</v-chip>
               <v-chip filter small :value="0">{{ $t('misc.status.all') }}</v-chip>

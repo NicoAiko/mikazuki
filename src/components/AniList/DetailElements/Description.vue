@@ -2,9 +2,9 @@
   <v-card>
     <v-card-title primary-title>
       <div>
-        <h3 class="headline">
+        <div class="headline">
           {{ $t('pages.aniList.detailView.description') }}
-        </h3>
+        </div>
       </div>
     </v-card-title>
     <!-- eslint-disable-next-line vue/no-v-html -->
