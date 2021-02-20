@@ -1,15 +1,15 @@
 <template>
   <v-app id="app">
-    <navigation-drawer :value.sync="drawer" :settings-dialog.sync="settingsDialog" />
+    <navigation-drawer v-if="isAuthenticated" :value.sync="drawer" :settings-dialog.sync="settingsDialog" />
     <!-- <Navigation /> -->
-    <mobile-nav-drawer-button :value.sync="drawer" />
+    <mobile-nav-drawer-button v-if="isAuthenticated" :value.sync="drawer" />
     <router-view :key="$route.path" />
     <ZeroTwoNotifications position="top center" />
     <!-- <TopButton /> -->
 
     <settings :dialog.sync="settingsDialog" />
 
-    <matomo-dialog v-if="matomoConsent === null" />
+    <matomo-dialog v-if="matomoActive && matomoConsent === null" />
   </v-app>
 </template>
 
@@ -52,6 +52,10 @@ export default class App extends Vue {
   readonly matomoConsent!: boolean | null;
   settingsDialog: boolean = false;
   drawer: boolean = false;
+
+  get matomoActive() {
+    return process.env.VUE_APP_USE_MATOMO === 'true';
+  }
 
   @Watch('isAuthenticated')
   loggedInStateChanged(value: boolean) {

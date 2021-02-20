@@ -201,7 +201,7 @@
         "notLoggedIn": "現在、ログインしていません。そうするために、下の「ログイン」ボタンをクリックしてください。"
       },
       "appSettings": {
-        "chooseLanguage": "言語を選択してください (Choose language)",
+        "chooseLanguage": "言語を選択してください",
         "darkMode": "ダークモード",
         "navigationActiveItemColour": "サイドバーアイテムのハイライト色",
         "navigationBackgroundBrightness": "サイドバーの壁紙-明るさ",

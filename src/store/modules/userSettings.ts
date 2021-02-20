@@ -154,3 +154,13 @@ const module: Module<UserSettingsState, RootState> = {
 };
 
 export default module;
+
+export enum USERSETTINGS_MUTATIONS {
+  SET_SESSION = 'userSettings/setSession',
+  SET_USER = 'userSettings/setUser',
+  SET_REFRESHRATE = 'userSettings/setRefreshRate',
+  SET_USERTITLELANGUAGE = 'userSettings/setUserTitleLanguage',
+  SET_SCORINGFORMAT = 'userSettings/setScoringFormat',
+  SET_SHOWEXPLICITCONTENT = 'userSettings/setShowExplicitContent',
+  SET_MATOMOCONSENT = 'userSettings/setMatomoConsent',
+}

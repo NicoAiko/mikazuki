@@ -201,7 +201,7 @@
         "notLoggedIn": "Du bist aktuell nicht eingeloggt! Bitte klicke dafür auf \"Login\"."
       },
       "appSettings": {
-        "chooseLanguage": "Sprache wählen (Choose language)",
+        "chooseLanguage": "Sprache wählen",
         "darkMode": "Dunkles App-Design",
         "navigationActiveItemColour": "Farbe des aktiven Navigationsitems",
         "navigationBackgroundBrightness": "Navigationshintergrund - Helligkeit",
