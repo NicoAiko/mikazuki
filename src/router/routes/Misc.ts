@@ -3,6 +3,7 @@ import Search from '@/views/Search.vue';
 import Settings from '@/views/Settings.vue';
 // TODO: Replace with async import
 import Login from '@/views/Login/Login.vue';
+import ALHome from '@/views/AL/Home/Home.vue';
 
 const routes: RouteConfig[] = [
   {
@@ -35,6 +36,11 @@ const routes: RouteConfig[] = [
     meta: {
       unauthorizedOnly: true,
     },
+  },
+  {
+    path: '/home',
+    name: '_Home',
+    component: ALHome,
   },
 ];
 
