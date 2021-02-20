@@ -239,19 +239,6 @@ export default class Home extends Vue {
   readonly session!: IAniListSession;
   readonly isAuthenticated!: boolean;
 
-  async beforeMount() {
-    if ('login' in this.$route.query) {
-      const { access_token: accessToken } = this.$route.query;
-
-      if (!accessToken) {
-        await this.$router.replace({ name: 'Home' });
-      }
-
-      this.$store.commit('userSettings/setSession', accessToken as string);
-      await this.$router.replace({ name: 'Home' });
-    }
-  }
-
   get currentUser() {
     return this.session.user;
   }
