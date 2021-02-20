@@ -39,7 +39,9 @@
   },
   "menus": {
     "navigationDrawer": {
-      "timeUntilNextRefresh": "Kemas kini dalam: {0}"
+      "timeUntilNextRefresh": "Kemas kini dalam: {0}",
+      "anime": "Anime",
+      "manga": "Manga"
     },
     "aniList": {
       "completed": "Selesai",

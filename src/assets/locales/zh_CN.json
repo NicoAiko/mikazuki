@@ -39,7 +39,9 @@
   },
   "menus": {
     "navigationDrawer": {
-      "timeUntilNextRefresh": "列表刷新倒计时：{0}"
+      "timeUntilNextRefresh": "列表刷新倒计时：{0}",
+      "anime": "Anime",
+      "manga": "Manga"
     },
     "aniList": {
       "completed": "已看完",

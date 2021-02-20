@@ -39,7 +39,9 @@
   },
   "menus": {
     "navigationDrawer": {
-      "timeUntilNextRefresh": "Next update in: {0}"
+      "timeUntilNextRefresh": "Next update in: {0}",
+      "anime": "Anime",
+      "manga": "Manga"
     },
     "aniList": {
       "completed": "Completed",

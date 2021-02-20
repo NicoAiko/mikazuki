@@ -39,7 +39,9 @@
   },
   "menus": {
     "navigationDrawer": {
-      "timeUntilNextRefresh": "التحديث التالي في: {0}"
+      "timeUntilNextRefresh": "التحديث التالي في: {0}",
+      "anime": "Anime",
+      "manga": "Manga"
     },
     "aniList": {
       "completed": "منتهى",

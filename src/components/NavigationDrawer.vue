@@ -55,6 +55,8 @@
           <template v-for="(item, index) in menuItems">
             <v-divider v-if="item.title === 'divider'" :key="index" class="my-2" />
 
+            <v-subheader v-else-if="item.title === 'subheader'" :key="index" v-text="$t(item.subheaderText)" inset />
+
             <v-list-item :key="index" :to="item.location" v-else exact>
               <v-list-item-icon>
                 <v-icon v-text="item.icon" />
@@ -99,10 +101,11 @@ import KofiDarkLogo from '@/assets/logos/Ko-fi-Support-Logo-Dark.png';
 import KofiLightLogo from '@/assets/logos/Ko-fi-Support-Logo-Light.png';
 
 interface NavigationItem {
-  title: string | 'divider';
+  title: string | 'divider' | 'subheader';
   location?: RawLocation;
   routeName?: string;
   icon?: string;
+  subheaderText?: string;
 }
 
 @Component
@@ -139,6 +142,10 @@ export default class NavigationDrawer extends Vue {
     },
     {
       title: 'divider',
+    },
+    {
+      title: 'subheader',
+      subheaderText: 'menus.navigationDrawer.anime',
     },
     {
       title: 'menus.aniList.watching',
