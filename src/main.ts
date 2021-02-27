@@ -11,6 +11,7 @@ import router from './router';
 import store from './store';
 import AniListAPI from './plugins/AniList';
 import MatomoOptions from './plugins/Matomo';
+import './plugins/dayjs';
 
 // Styles & Fonts
 import '@/assets/scss/extra.scss';

@@ -14,6 +14,7 @@
 </template>
 
 <script lang="ts">
+import dayjs from 'dayjs';
 import moment from 'moment';
 import { Component, Vue, Watch } from 'vue-property-decorator';
 import { mapGetters } from 'vuex';
@@ -79,6 +80,7 @@ export default class App extends Vue {
 
     this.$vuetify.rtl = this.isRTLLanguage(this.$i18n.locale);
     moment.locale(this.$i18n.locale);
+    dayjs.locale(this.getDayJsLocale(this.$i18n.locale));
     root.setAttribute('class', `font-face-${this.getLocaleBasedFontFace(this.$i18n.locale)}`);
   }
 
@@ -105,6 +107,7 @@ export default class App extends Vue {
     this.$vuetify.rtl = this.isRTLLanguage(this.$i18n.locale);
 
     moment.locale(this.$i18n.locale);
+    dayjs.locale(this.getDayJsLocale(this.$i18n.locale));
 
     if (this.matomoConsent === true) {
       this.$matomo?.trackPageView();
@@ -150,6 +153,19 @@ export default class App extends Vue {
     }
 
     return fontFace;
+  }
+
+  getDayJsLocale(locale: string): string {
+    switch (locale) {
+      case 'es_MX':
+        return 'es';
+      case 'pt_BR':
+        return 'pt-br';
+      case 'zn_CN':
+        return 'zn-cn';
+      default:
+        return locale;
+    }
   }
 
   isRTLLanguage(locale: string): boolean {
