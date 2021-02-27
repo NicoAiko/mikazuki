@@ -1,45 +1,45 @@
 {
-  "originalReading": "简体中文",
-  "englishReading": "Simplified Chinese",
+  "originalReading": "中文（简体）",
+  "englishReading": "Chinese (Simplified)",
   "flag": "",
   "actions": {
     "add": "添加",
     "added": "已添加至列表",
-    "addToPlanToWatch": "添加至“计划中”",
+    "addToPlanToWatch": "添加至计划观看",
     "back": "返回",
     "fastSearch": "搜索…… ⏎",
+    "filter": "筛选",
     "loading": "加载中……",
     "login": "登录",
     "logout": "注销",
+    "putOnRepeatList": "添加至重温列表",
     "remove": "删除",
     "reset": "重置",
+    "revertToAiringList": "移回至放送列表",
     "save": "保存",
     "search": "搜索",
     "sort": "排序",
-    "toPageTop": "返回顶部",
-    "filter": "筛选",
-    "putOnRepeatList": "Put on repeat list",
-    "revertToAiringList": "Revert to airing list"
+    "toPageTop": "返回顶部"
   },
   "alerts": {
-    "adultContent": "该作品可能含有 R-18 内容！建议您在查看时注意场合。",
+    "adultContent": "此￼作品可能含有 R-18 内容！建议您在查看时注意场合。",
     "noDescription": "无可用的说明。",
     "noEnglishTitle": "无可用的英文片名。",
     "noInformation": "无可用的信息。",
     "noSynonyms": "无可用的别名。",
-    "notYetInList": "该作品尚不在您的列表内。",
-    "unauthenticated": "您尚未登录！",
+    "notYetInList": "此￼作品尚不在您的列表内。",
+    "unauthenticated": "您尚未授权登录！",
     "unknown": "未知"
   },
   "errors": {
     "updateFailed": {
       "title": "更新失败",
-      "text": "无法提交更新！请检查 AniList 的服务器是否可用或您的网络连接是否畅通！"
+      "text": "无法同步所提交的更新￼！请检查 AniList 的服务是否可用、您的网络连接是否畅通！"
     }
   },
   "menus": {
     "navigationDrawer": {
-      "timeUntilNextRefresh": "列表刷新倒计时：{0}"
+      "timeUntilNextRefresh": "刷新倒计时：{0}"
     },
     "aniList": {
       "completed": "已看完",
@@ -109,7 +109,7 @@
           "text": [
             "请打开设置页面（右上角齿轮图标），然后切换至 “AniList” 选项卡。",
             "其中有一个“登录”按钮，点击此按钮，会打开 AniList 的登录窗口。",
-            "在此窗口中提交完登录数据后，窗口会自动关闭。此时登录完成！"
+            "在此窗口中提交完登录数据后，窗口会自动关闭，然后即可￼￼完成登录。"
           ]
         }
       },
@@ -166,7 +166,7 @@
       "genres": {
         "label": "题材",
         "hint": "最多 3 种",
-        "noMatch": "无匹配 “<strong>{0}</strong>” 的题材。按 <kbd>Enter</kbd> 键以创建。"
+        "noMatch": "无匹配 “<strong>{0}</strong>” 的题材。按 <kbd>Enter</kbd> 键进行￼创建。"
       }
     },
     "seasonPreview": {
@@ -174,8 +174,8 @@
       "startDate": "开始放映于：",
       "updateDialog": {
         "season": "季度",
-        "title": "番组一览参数设置",
-        "yearOfSeason": "年份"
+        "yearOfSeason": "年份",
+        "title": "番组一览参数设置"
       }
     },
     "settings": {
@@ -183,22 +183,22 @@
         "version": "版本"
       },
       "aniList": {
+        "notLoggedIn": "您尚未登录！请点击下方的“登录”按钮进行登录。",
         "loggedInAs": "用户 {0} 已登录",
         "refreshRate": "刷新频率",
-        "refreshRateRule": "刷新时间间隔只可设置在 5 分钟到 5 小时（即 5 - 300 分钟）之间！",
+        "refreshRateRule": "刷新时间间隔只可设置在 5 分钟到 5 小时（即 5 ～ 300 分钟）之间！",
         "refreshRateSuffix": "分钟",
-        "refreshRateHint": "此项用于调整本程序与 AniList 服务器每两次同步之间的时间间隔。每次修改将于下次同步后生效。",
+        "refreshRateHint": "此项用于控制￼与 AniList 服务器同步的时间间隔。每次修改将于下次同步后生效。",
         "userAccountSettings": {
           "headline": "AniList 用户帐户设置",
+          "subHeadline": "更改这些设置可能需要一段时间才会生效！",
+          "userTitleLanguage": "片名语言",
+          "userTitleLanguageHint": "此项设置用于修改作品片名在显示时所使用的语言。",
           "scoringFormat": "评分制",
           "scoringFormatHint": "此项设置可调整您为列表中的项目打分时所使用的评分制。",
           "showExplicitContent": "显示露骨的内容（R-18 内容）",
-          "showExplicitContentHint": "此项设置可控制是否显示 R-18 内容。",
-          "subHeadline": "更改这些设置可能需要一段时间才会生效！",
-          "userTitleLanguage": "片名语言",
-          "userTitleLanguageHint": "此项设置用于修改作品片名在显示时所使用的语言。"
-        },
-        "notLoggedIn": "You're currently not logged in! Please do so by clicking on the \"Login\" button below."
+          "showExplicitContentHint": "此项设置可控制是否显示 R-18 内容。"
+        }
       },
       "appSettings": {
         "chooseLanguage": "语言选择",
@@ -220,8 +220,8 @@
         "changesIn": "在 {0} 版本中的新变化"
       },
       "specialThanks": {
-        "supporters": "赞助者",
-        "translators": "译者"
+        "translators": "译者",
+        "supporters": "赞助者"
       }
     }
   },
@@ -242,9 +242,9 @@
   },
   "notifications": {
     "aniList": {
-      "successTitle": "更新成功",
-      "completeUpdateText": "已将 {0} 全部看完并成功更新记录至第 {1} 话。",
-      "simpleUpdateText": "已成功将 {0} 更新记录至第 {1} 话",
+      "successTitle": "￼同步￼成功",
+      "completeUpdateText": "已将 {0} 全部看完并成功同步￼记录至第 {1} 话。",
+      "simpleUpdateText": "已成功将 {0} 同步记录至第 {1} 话",
       "addedToList": "已成功将 {0} 添加至您的列表。",
       "removeEntry": "已成功将 {0} 从您的列表中移除。"
     }
@@ -259,6 +259,12 @@
         "repeating": "重温中",
         "watching": "观看中"
       },
+      "mediaStatus": {
+        "cancelled": "取消放送",
+        "finished": "放送完毕",
+        "not_yet_released": "尚未放送",
+        "releasing": "放送中"
+      },
       "seasons": {
         "spring": "春",
         "summer": "夏",
@@ -268,26 +274,20 @@
       },
       "settings": {
         "scoringFormats": {
-          "POINT_10": "十分制（5 / 10）",
           "POINT_100": "百分制（55 / 100）",
           "POINT_10_DECIMAL": "十分小数制（5.5 / 10）",
-          "POINT_3": "三分表情制",
-          "POINT_5": "五星制 (3 / 5)"
+          "POINT_10": "十分制（5 / 10）",
+          "POINT_5": "五星制 (3 / 5)",
+          "POINT_3": "三等表情制"
         },
         "titleLanguages": {
-          "ENGLISH": "英文片名（How to keep a mummy）",
-          "ENGLISH_STYLISED": "风格化英文片名",
-          "NATIVE": "原片名（ミイラの飼い方）",
-          "NATIVE_STYLISED": "风格化原片名",
           "ROMAJI": "罗马字片名 (Miira no Kaikata)",
-          "ROMAJI_STYLISED": "风格化罗马字片名"
+          "ENGLISH": "英文片名（How to keep a mummy）",
+          "NATIVE": "原片名（ミイラの飼い方）",
+          "ROMAJI_STYLISED": "风格化罗马字片名",
+          "ENGLISH_STYLISED": "风格化英文片名",
+          "NATIVE_STYLISED": "风格化原片名"
         }
-      },
-      "mediaStatus": {
-        "cancelled": "取消放送",
-        "finished": "放送完毕",
-        "not_yet_released": "尚未放送",
-        "releasing": "放送中"
       }
     },
     "colours": {
@@ -303,7 +303,7 @@
       "dateUnknown": "日期不详"
     },
     "rules": {
-      "required": "必填，请勿留空。"
+      "required": "此处￼必填。"
     },
     "modules": {
       "aniList": "AniList"
@@ -332,8 +332,8 @@
     "text": "亲爱的 ZeroTwo 用户\n有关注过我们 Discord 服务器更新信息的用户应该已经有所了解，我早有计划为 ZeroTwo 更名。\n理由很简单，我个人感觉这个新名字会显得更中立、听上去更舒服。\n在 Discord 上发起过一个投票以后，我们敲定，以获得最高票数的 mikazuki.moe 作为我们的新域名。\n新域名 mikazuki.moe 现已可进行访问，而原域名 zerotwo.org 将于 2020 年 4 月 7 日到期，届时将无法再通过原域名进行访问。\n如果您想继续使用 ZeroTwo（现在应该改叫它 Mikazuki 了），还请移步至 mikazuki.moe。\n请注意，由于无法直接将登录数据从 zerotwo.org 迁至 mikazuki.moe，您需要在 mikazuki.moe 上重新进行登录。\n同样，您在 zerotwo.org 上所修改过的设置，例如刷新时间间隔等，也会被还原成默认状态。\n\nNicoAiko\nMikazuki 主开发者"
   },
   "dataPrivacy": {
-    "acceptAll": "Accept all",
-    "headline": "Data usage and collection",
-    "onlyMandatory": "Only mandatory (Opt-out)"
+    "acceptAll": "全部接受",
+    "headline": "数据使用与收集",
+    "onlyMandatory": "仅强制性（选择排除）"
   }
 }
