@@ -36,4 +36,9 @@ export interface IAniListActivity {
    * @var {IAniListCoverImage} coverImage contains data about the media's covers
    */
   coverImage: IAniListCoverImage;
+  replyCount: number;
+  likeCount: number;
+  isLiked: boolean;
+  isSubscribed: boolean;
+  isLocked: boolean;
 }

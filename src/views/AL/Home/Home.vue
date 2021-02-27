@@ -11,5 +11,13 @@
         </v-row>
       </v-container>
     </div>
+
+    <v-container fluid>
+      <v-row>
+        <v-col cols="12" v-for="activity in latestActivities" :key="activity.id">
+          <activity :activity="activity" />
+        </v-col>
+      </v-row>
+    </v-container>
   </v-main>
 </template>

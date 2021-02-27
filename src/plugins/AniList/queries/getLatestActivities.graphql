@@ -23,6 +23,11 @@ query GetActivities($page: Int!, $perPage: Int!, $isFollowing: Boolean) {
         status
         type
         createdAt
+        replyCount
+        likeCount
+        isLiked
+        isSubscribed
+        isLocked
       }
     }
   }

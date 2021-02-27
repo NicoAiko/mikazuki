@@ -1,15 +1,18 @@
 import { Component, Provide, Vue } from 'vue-property-decorator';
 import { Getter } from '@/decorators';
-import { IAniListSession, IAniListUser } from '@/types';
+import { IAniListActivity, IAniListSession, IAniListUser } from '@/types';
 import ProfileImage from './ProfileImage/ProfileImage.vue';
+import Activity from './Activity/Activity.vue';
 
 @Component({
   components: {
+    Activity,
     ProfileImage,
   },
 })
 export default class ALHome extends Vue {
-  @Getter('userSettings') session!: IAniListSession;
+  @Getter('userSettings') readonly session!: IAniListSession;
+  @Getter('aniList') readonly latestActivities!: IAniListActivity[];
 
   @Provide()
   get currentUser(): IAniListUser {

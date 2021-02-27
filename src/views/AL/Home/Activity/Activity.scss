@@ -1,0 +1,21 @@
+.card {
+  display: grid !important;
+  grid-template-columns: [image] 150px [details] auto;
+  grid-template-areas: 'image details';
+  min-height: 200px;
+  height: 100%;
+}
+
+.image {
+  grid-area: image;
+
+  &.cover {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+  }
+}
+
+.details {
+  grid-area: details;
+}
