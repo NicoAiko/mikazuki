@@ -22,19 +22,19 @@
     "toPageTop": "返回顶部"
   },
   "alerts": {
-    "adultContent": "此￼作品可能含有 R-18 内容！建议您在查看时注意场合。",
+    "adultContent": "此作品可能含有 R-18 内容！建议您在查看时注意场合。",
     "noDescription": "无可用的说明。",
     "noEnglishTitle": "无可用的英文片名。",
     "noInformation": "无可用的信息。",
     "noSynonyms": "无可用的别名。",
-    "notYetInList": "此￼作品尚不在您的列表内。",
+    "notYetInList": "此作品尚不在您的列表内。",
     "unauthenticated": "您尚未授权登录！",
     "unknown": "未知"
   },
   "errors": {
     "updateFailed": {
       "title": "更新失败",
-      "text": "无法同步所提交的更新￼！请检查 AniList 的服务是否可用、您的网络连接是否畅通！"
+      "text": "无法同步所提交的更新！请检查 AniList 的服务是否可用、您的网络连接是否畅通！"
     }
   },
   "menus": {
@@ -109,7 +109,7 @@
           "text": [
             "请打开设置页面（右上角齿轮图标），然后切换至 “AniList” 选项卡。",
             "其中有一个“登录”按钮，点击此按钮，会打开 AniList 的登录窗口。",
-            "在此窗口中提交完登录数据后，窗口会自动关闭，然后即可￼￼完成登录。"
+            "在此窗口中提交完登录数据后，窗口会自动关闭，然后即可完成登录。"
           ]
         }
       },
@@ -166,7 +166,7 @@
       "genres": {
         "label": "题材",
         "hint": "最多 3 种",
-        "noMatch": "无匹配 “<strong>{0}</strong>” 的题材。按 <kbd>Enter</kbd> 键进行￼创建。"
+        "noMatch": "无匹配 “<strong>{0}</strong>” 的题材。按 <kbd>Enter</kbd> 键进行创建。"
       }
     },
     "seasonPreview": {
@@ -188,7 +188,7 @@
         "refreshRate": "刷新频率",
         "refreshRateRule": "刷新时间间隔只可设置在 5 分钟到 5 小时（即 5 ～ 300 分钟）之间！",
         "refreshRateSuffix": "分钟",
-        "refreshRateHint": "此项用于控制￼与 AniList 服务器同步的时间间隔。每次修改将于下次同步后生效。",
+        "refreshRateHint": "此项用于控制与 AniList 服务器进行同步的时间间隔。每次修改将于下次同步后生效。",
         "userAccountSettings": {
           "headline": "AniList 用户帐户设置",
           "subHeadline": "更改这些设置可能需要一段时间才会生效！",
@@ -242,8 +242,8 @@
   },
   "notifications": {
     "aniList": {
-      "successTitle": "￼同步￼成功",
-      "completeUpdateText": "已将 {0} 全部看完并成功同步￼记录至第 {1} 话。",
+      "successTitle": "同步成功",
+      "completeUpdateText": "已将 {0} 全部看完并成功同步记录至第 {1} 话。",
       "simpleUpdateText": "已成功将 {0} 同步记录至第 {1} 话",
       "addedToList": "已成功将 {0} 添加至您的列表。",
       "removeEntry": "已成功将 {0} 从您的列表中移除。"
@@ -303,7 +303,7 @@
       "dateUnknown": "日期不详"
     },
     "rules": {
-      "required": "此处￼必填。"
+      "required": "此处必填。"
     },
     "modules": {
       "aniList": "AniList"
