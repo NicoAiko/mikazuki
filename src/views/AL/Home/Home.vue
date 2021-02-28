@@ -15,9 +15,16 @@
     <v-container fluid>
       <v-row>
         <v-col cols="12" v-for="activity in latestActivities" :key="activity.id">
-          <activity :activity="activity" />
+          <activity :activity="activity" @update:activity="onUpdateActivity" @reply="onShowActivityReplyDialog" />
         </v-col>
       </v-row>
     </v-container>
+
+    <reply-dialog
+      :dialog.sync="showReplyDialog"
+      :activity="selectedActivity"
+      @close="onCloseActivityReplyDialog"
+      @reload="onReloadActivity"
+    />
   </v-main>
 </template>

@@ -27,19 +27,19 @@
       <v-spacer />
 
       <v-card-actions>
-        <v-btn text :color="activity.isLiked ? 'pink' : ''">
+        <v-btn text :color="activity.isLiked ? 'pink' : ''" :loading="loadingLike" @click="onToggleLikeClick">
           <v-icon v-if="activity.isLiked" left>mdi-heart</v-icon>
           <v-icon v-else left>mdi-heart-outline</v-icon>
 
           {{ activity.likeCount }}
         </v-btn>
 
-        <v-btn text>
+        <v-btn text :loading="loadingReply" @click="onReplyClick">
           <v-icon left>mdi-message-outline</v-icon>
           {{ activity.replyCount }}
         </v-btn>
 
-        <v-btn text :color="activity.isSubscribed ? 'orange' : ''">
+        <v-btn text :color="activity.isSubscribed ? 'orange' : ''" :loading="loadingSubscribe">
           <v-icon v-if="activity.isSubscribed" left>mdi-bell</v-icon>
           <v-icon v-else left>mdi-bell-outline</v-icon>
           SUBSCRIBE

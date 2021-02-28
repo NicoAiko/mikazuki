@@ -1,5 +1,5 @@
 import dayjs from 'dayjs';
-import { Component, Prop, Vue } from 'vue-property-decorator';
+import { Component, Emit, Prop, Vue } from 'vue-property-decorator';
 import { IAniListActivity } from '@/types';
 import IndeterminateImage from '@/components/IndeterminateImage.vue';
 
@@ -10,6 +10,9 @@ import IndeterminateImage from '@/components/IndeterminateImage.vue';
 })
 export default class Activity extends Vue {
   @Prop(Object) activity!: IAniListActivity;
+  loadingLike: boolean = false;
+  loadingReply: boolean = false;
+  loadingSubscribe: boolean = false;
 
   get humanReadableCreatedAt(): string {
     return dayjs(this.activity.createdAt * 1000).fromNow();
@@ -36,5 +39,22 @@ export default class Activity extends Vue {
       default:
         return this.activity.status;
     }
+  }
+
+  @Emit('update:activity')
+  async onToggleLikeClick() {
+    const type = 'ACTIVITY';
+    const { id } = this.activity;
+
+    this.loadingLike = true;
+    const activity = await this.$http.toggleLike(id, type);
+    this.loadingLike = false;
+
+    return activity;
+  }
+
+  @Emit('reply')
+  onReplyClick() {
+    return this.activity;
   }
 }
