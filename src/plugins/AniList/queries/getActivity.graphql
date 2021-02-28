@@ -1,0 +1,52 @@
+query getActivity($id: Int!) {
+  activity: Activity(id: $id) {
+    ... on ListActivity {
+      id
+      media {
+        id
+        title {
+          userPreferred
+        }
+        coverImage {
+          extraLarge
+        }
+        type
+      }
+      user {
+        name
+        avatar {
+          large
+        }
+      }
+      progress
+      status
+      type
+      createdAt
+      replyCount
+      likeCount
+      isLiked
+      isSubscribed
+      isLocked
+      replies {
+        id
+        userId
+        text(asHtml: true)
+        likeCount
+        isLiked
+        createdAt
+        user {
+          name
+          avatar {
+            large
+          }
+        }
+        likes {
+          name
+          avatar {
+            large
+          }
+        }
+      }
+    }
+  }
+}

@@ -28,6 +28,26 @@ query GetActivities($page: Int!, $perPage: Int!, $isFollowing: Boolean) {
         isLiked
         isSubscribed
         isLocked
+        replies {
+          id
+          userId
+          text(asHtml: true)
+          likeCount
+          isLiked
+          createdAt
+          user {
+            name
+            avatar {
+              large
+            }
+          }
+          likes {
+            name
+            avatar {
+              large
+            }
+          }
+        }
       }
     }
   }

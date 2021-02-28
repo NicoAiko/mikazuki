@@ -1,0 +1,10 @@
+mutation toggleLike($id: Int!, $type: LikeableType!) {
+  activity: ToggleLikeV2(id: $id, type: $type) {
+    ... on ListActivity {
+      id
+      likeCount
+      replyCount
+      isLiked
+    }
+  }
+}

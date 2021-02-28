@@ -31,6 +31,7 @@ import getLatestActivities from './queries/getLatestActivities.graphql';
 import getUserStatistics from './queries/getUserStatistics.graphql';
 import getSeasonPreview from './queries/getSeasonPreview.graphql';
 import searchAnime from './queries/searchAnime.graphql';
+import getActivity from './queries/getActivity.graphql';
 // #endregion
 
 // #region Mutations
@@ -40,6 +41,8 @@ import removeEntry from './mutations/removeEntry.graphql';
 import updateUserTitleLanguage from './mutations/updateUserTitleLanguage.graphql';
 import updateScoringFormat from './mutations/updateScoringFormat.graphql';
 import updateShowExplicitContent from './mutations/updateShowExplicitContent.graphql';
+import toggleLike from './mutations/toggleLike.graphql';
+import saveActivityReply from './mutations/saveActivityReply.graphql';
 // #endregion
 
 // #region Responses
@@ -196,6 +199,15 @@ export default class AniListAPI {
     return response.page.media;
   }
 
+  public async getActivity(id: number): Promise<IAniListActivity> {
+    const response = await axios.post('/', {
+      query: getActivity,
+      variables: { id },
+    });
+
+    return response.activity;
+  }
+
   public async addEntry({ mediaId, status, score, progress }: AddEntryParams): Promise<IAniListEntry> {
     const response = await axios.post<MediaResponse<IAniListEntry>>('/', {
       query: addEntry,
@@ -265,5 +277,25 @@ export default class AniListAPI {
     });
 
     return response.user.options.displayAdultContent;
+  }
+
+  // TODO: Add proper typing
+  public async toggleLike(id: number, type: any): Promise<any> {
+    const response = await axios.post('/', {
+      query: toggleLike,
+      variables: { id, type },
+    });
+
+    return response.activity;
+  }
+
+  // TODO: Add proper typing
+  public async saveActivityReply(activityId: number, text: string, id?: number): Promise<any> {
+    const response = await axios.post('/', {
+      query: saveActivityReply,
+      variables: { activityId, text, id },
+    });
+
+    return response.activity;
   }
 }
