@@ -302,7 +302,8 @@
       "full": "DD. MMMM YYYY",
       "monthAndYear": "MMMM YYYY",
       "yearOnly": "YYYY",
-      "dateUnknown": "Datum unbekannt"
+      "dateUnknown": "Datum unbekannt",
+      "fullDateTime": "DD. MMMM YYYY HH:mm [Uhr]"
     },
     "rules": {
       "required": "Diese Eingabe muss ausgefüllt werden."
