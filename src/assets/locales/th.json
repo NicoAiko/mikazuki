@@ -1,0 +1,339 @@
+{
+  "originalReading": "ไทย",
+  "englishReading": "Thai",
+  "flag": "th",
+  "actions": {
+    "add": "เพิ่ม",
+    "added": "เพิ่มเข้ารายการแล้ว",
+    "addToPlanToWatch": "เพิ่มเข้ารายการอ่านทีหลัง",
+    "back": "กลับ",
+    "fastSearch": "ค้นหา... ⏎",
+    "filter": "ฟิลเตอร์",
+    "loading": "กำลังโหลด...",
+    "login": "ล็อกอิน",
+    "logout": "ล็อกออก",
+    "putOnRepeatList": "เพิ่มเข้ารายการซ้ำ",
+    "remove": "เอาออก",
+    "reset": "รีเซ็ต",
+    "revertToAiringList": "กลับเข้ารายการกำลังฉาย",
+    "save": "เซฟ",
+    "search": "ค้นหา",
+    "sort": "เรียงโดย",
+    "toPageTop": "กลับขึ้นบน"
+  },
+  "alerts": {
+    "adultContent": "เนื้อหาต่อไปนี้เป็นเนื้อหา 18+! ดำเนินต่อด้วยการพิจารณาของผู้ชม",
+    "noDescription": "ไม่มีคำอธิบาย",
+    "noEnglishTitle": "ไม่มีชื่อภาษาอังกฤษ",
+    "noInformation": "ไม่มีข้อมูล",
+    "noSynonyms": "ไม่มีคำพ้องความหมาย",
+    "notYetInList": "เนื้อหานี้ไม่อยู่บนรายการของคุณ",
+    "unauthenticated": "คุณไม่ได้มีการรับรองอย่างถูกต้อง",
+    "unknown": "ไม่มีข้อความ!"
+  },
+  "errors": {
+    "updateFailed": {
+      "title": "อัพเดตล้มเหลว",
+      "text": "อัพเดตไม่สามารถซิงค์ได้! เช็คความพร้อมของ AniList หรือสัญญาณอินเตอร์เน็ต!"
+    }
+  },
+  "menus": {
+    "navigationDrawer": {
+      "timeUntilNextRefresh": "อัพเดตต่อไปภายใน: {0}"
+    },
+    "aniList": {
+      "completed": "สำเร็จแล้ว",
+      "dropped": "ได้นำออกแล้ว",
+      "home": "เพจหลัก",
+      "paused": "หยุดชั่วคราว",
+      "planning": "แผน",
+      "repeating": "ดูซ้ำ",
+      "seasonPreview": "ดูตัวอย่างซีซั่น",
+      "watching": "กำลังดู"
+    },
+    "search": "ค้นหา",
+    "settings": {
+      "title": "ตั้งค่า",
+      "about": "เกียวกับ Mikazuki",
+      "aniList": "AniList",
+      "appSettings": "ตั้งค่าแอพ",
+      "changelog": "การเปลี่นแปลงล่าสุด",
+      "specialThanks": "ขอขอบคุณ"
+    }
+  },
+  "components": {
+    "sorting": {
+      "directions": {
+        "ascending": "เรียงจากล่างขึ้นบน",
+        "descending": "เรียงจากบนลงล่าง"
+      },
+      "sortingLabel": "เรียงจาก",
+      "title": "ชื่อ",
+      "score": "คะแนน",
+      "progress": "ความคืบหน้า",
+      "startingDate": "วันเริ่มต้น",
+      "episodeAmount": "จำนวนตอน"
+    }
+  },
+  "pages": {
+    "aniList": {
+      "home": {
+        "activities": {
+          "badges": {
+            "anime": "อนิเมะ",
+            "manga": "มังงะ"
+          },
+          "statistics": {
+            "totalAnime": "อนิเมะโดยรวม",
+            "totalManga": "มังงะโดยรวม",
+            "daysWatched": "จำนวนวันที่ดูแล้ว",
+            "meanScore": "คะแนนเฉลี่ย",
+            "chaptersRead": "จำนวนบทที่อ่านแล้ว",
+            "activityHistory": "ประวัติการดำเนินการ",
+            "genreOverview": "ดูประเภททั้งหมด"
+          },
+          "headline": "การดำเนินการล่าสุด",
+          "completed": "ดูเสร็จแล้ว {0}",
+          "plansToWatch": "ดูทีหลัง {0}",
+          "watchedEpisode": "ดูตอน {1} ใน {0}",
+          "dropped": "ไม่ดูแล้ว {0}",
+          "rewatchedEpisode": "ดูตอนซ้ำ {1} ใน {0}",
+          "pausedWatching": "หยุดชั่วคราว {0}",
+          "readChapter": "อ่านบท {1} ใน {0}",
+          "plansToRead": "อ่านที่หลัง {0}",
+          "rereadChapter": "อ่านบทซ้ำ {1} ใน {0}",
+          "pausedReading": "หยุดการอ่านชั่วคราว {0}"
+        },
+        "howToAuthenticate": {
+          "header": "วิธีการล็อกอิน:",
+          "text": [
+            "ไปที่เพจตั้งค่า (อยู่ที่มุมขวา) เสร็จแล้วไปที่แท็บ \"AniList\"",
+            "คุณจะเห็นปุ่ม \"ล็อกอิน\" ซึ่งจะพาคุณไปที่เพจล็อกอินของ AniList",
+            "หลังจากใส่ข้อมูลล็อกอินแล้ว เพจจะปิดเองโดยอัตโนมัติและการล็อกอินควรจะสำเร็จแล้ว"
+          ]
+        }
+      },
+      "list": {
+        "airingFinished": "การฉายเสร็จแล้ว",
+        "missingEpisodes": "เหลือดูอีกหนึ่งตอน | เหลือดูอีก {count} ตอน",
+        "notYetAired": "ยังไม่ได้ฉาย",
+        "nextAiringEpisode": "ตอนที่ {0} กำลังฉาย {1}",
+        "scoreDialog": {
+          "title": "เปลี่ยนคะแนน"
+        }
+      },
+      "detailView": {
+        "airedOn": "ฉายวันที่ {0}",
+        "airedOnTo": "{0} จนถึง {1}",
+        "airesFromTo": "ฉายวันที่ {0} จนถึงวันที่ {1}",
+        "airesOn": "จะฉายวันที่ {0}",
+        "airingStartedOn": "เริ่มต้นวันที่ {0}",
+        "airingStartsOnDay": "จะเริ่มต้นวันที่ {0}",
+        "airingStartsInMonthYear": "จะเริ่มในอีก {0}",
+        "airingStartsInYear": "จะเริ่มในอีก {0}",
+        "airingTime": "เวลาฉาย",
+        "airingWithUnknownStart": "? - {0}",
+        "description": "คำอธิบาย",
+        "englishTitle": "ชื่อภาษาอังกฤษ",
+        "episodes": "ตอน",
+        "genres": "ประเภท",
+        "nativeTitle": "ชื่อ๓าษาดั้งเดิม",
+        "ownInformation": "ข้อมูลของรายการขางคุณ",
+        "ownProgress": "ความคืบหน้า",
+        "ownStatus": "สถานะ",
+        "ownScore": "คะแนน",
+        "romajiTitle": "ชื่อโรมาจิ",
+        "score": "{0} / {1} แต้ม",
+        "scoreLabel": "คะแนนเฉลี่ย",
+        "streamingSubheader": "บริการการสตรีม",
+        "synonyms": "คำพ้องความหมาย"
+      }
+    },
+    "search": {
+      "searchQuery": "ค้นหา...",
+      "searchFilter": "ฟิลเตอร์ค้นหา",
+      "adultContent": {
+        "label": "เนื้อหา 18+",
+        "hint": "ปล่อยว่างเปล่าเพื่อค้นหาเนื้อหา 18+ และไม่ 18+",
+        "both": "ไม่มีฟิลเตอร์",
+        "onlyNonAdult": "เนื้อหาไม่ 18+ เท่านั้น",
+        "onlyAdult": "เนื้อหา 18+ เท่านั้น"
+      },
+      "inList": {
+        "label": "ในรายการ",
+        "hint": "ปล่อยว่างเพื่อค้นหาเนื้อหาที่ไม่อยู่ในรายการของคุณ"
+      },
+      "genres": {
+        "label": "ประเภท",
+        "hint": "มากสุดถึง 3",
+        "noMatch": "ไม่มีประเภทที่ครงกับที่ค้นหา \"<strong>{0}</strong>\". กดปุ่ม <kbd>enter</kbd> เพื่อสร้างประเภท"
+      }
+    },
+    "seasonPreview": {
+      "episodes": "? ตอน | 1 ตอน | {count} ตอน",
+      "startDate": "วันเริ่มต้นฉาย:",
+      "updateDialog": {
+        "season": "ซีซั้น",
+        "yearOfSeason": "ปีของซีซั่น",
+        "title": "ดูตัวอย่างซีซั่นอย่างจำกัด"
+      }
+    },
+    "settings": {
+      "about": {
+        "version": "เวอร์ชั่น"
+      },
+      "aniList": {
+        "notLoggedIn": "ขณะนี้คุณยังไม่ได้ล็อกอิน ได้โปรดล็อกอินโดยกดปุ่มล็อกอิน \"ล็อกอิน\" ที่อยู่ข้างหลาย",
+        "loggedInAs": "ล็็อกอินโดย {0}",
+        "refreshRate": "รีเฟรช",
+        "refreshRateRule": "ระบบอนุญาติให้ใช้ได้เป็นระยะเวลา 5 นาทีถึง 5 ชั่วโมง (5 - 300 นาที)!",
+        "refreshRateSuffix": "นาที",
+        "refreshRateHint": "ระยะเวลานี้กำหนดจำนวนนาทีจนถึงเวลาซิงค์กับเซิร์ฟเวอร์ของ AniList ครั้งต่อไป  การเปลี่ยนแปลงของระยะเวลานี้จะเริ่มทำงานหลังจากการซิงค์ครั้งต่อไป",
+        "userAccountSettings": {
+          "headline": "การตั้งค่าแอคเค้าท์ AniList",
+          "subHeadline": "การเปลี่ยนแปลงกับการตั้งค่านี้อาจจะใช่เวลานิดหน่อยจนกว่าจะเริ่มทำงาน",
+          "userTitleLanguage": "ภาษาของชื่อ",
+          "userTitleLanguageHint": "การตั้งค่านี้จะกำหนดว่าชื่อของเนื้อหาจะเเสดงเป็นภาษาอะไร",
+          "scoringFormat": "รูปแบบการแสดงคะแนน",
+          "scoringFormatHint": "การตั้งค่านี้จะกำหนดวิธีการให้คะแนนแต่ละไอเท็มในรายการของคุณ",
+          "showExplicitContent": "แสดงเนื้อหา 18+",
+          "showExplicitContentHint": "การตั้งค่านี้จะกำหนดว่าเนื้อหา 18+ จะแสดงหรือไม่"
+        }
+      },
+      "appSettings": {
+        "chooseLanguage": "เลือกภาษา",
+        "darkMode": "โหมดมืด",
+        "navigationActiveItemColour": "สีไฮไลท์เมนู",
+        "navigationBackgroundBrightness": "ความสว่างเมนู",
+        "navigationBackgroundBlurriness": "ความเบลอร์เมนู",
+        "initialListItemAmount": "จำนวนรายการตั้งต้น",
+        "listAnimationActivity": {
+          "headline": "รายการกิจกรรมอนิเมชั่น",
+          "subtitle": "จำนวนที่เลือกไว้ทำหน้าที่เป็นขีดจำกัด. ถ้าแสดงมากกว่าหนึ่งไอเท็มพร้อมกัน อนิเมชั่นทั้งหมดจะหยุดเพื่อความลื่น"
+        }
+      },
+      "changelog": {
+        "new": "ใหม่",
+        "fix": "ซ่อม",
+        "remove": "เอาออก",
+        "version": "เวอร์ชั่น",
+        "changesIn": "การเปลี่ยนแปลงครั้งล่าสุดใน {0}"
+      },
+      "specialThanks": {
+        "translators": "ผู้แปลภาษา",
+        "supporters": "ผู้ช่วย"
+      }
+    }
+  },
+  "routes": {
+    "aniList": {
+      "home": "เพจหลัก",
+      "watching": "กำลังดู",
+      "repeating": "ดูซ้ำ",
+      "completed": "ดูเสร็จแล้ว",
+      "paused": "หยุดชั่วคราว",
+      "dropped": "ไม่ดูแล้ว",
+      "planning": "วางแผนที่จะดู"
+    },
+    "detailView": "ดูแบบละเอียด",
+    "search": "ค้นหา",
+    "seasonPreview": "ดูตัวอย่างซีซั่น",
+    "settings": "การต้ังค่า"
+  },
+  "notifications": {
+    "aniList": {
+      "successTitle": "ซิงค์สำเร็จแล้ว",
+      "completeUpdateText": "{0} ได้ดำเนินการสำเร็จพร้อมกับการซิงค์จนถึงตอนที่ {1}.",
+      "simpleUpdateText": "{0} สิงค์สำเร็จจนถึงตอนที่ {1}.",
+      "addedToList": "{0} ได้เพิ่มเข้ารายการของคุณแล้ว",
+      "removeEntry": "{0} ได้นำออกจากรายการของคุณแล้ว"
+    }
+  },
+  "misc": {
+    "aniList": {
+      "listStatusses": {
+        "completed": "สำเร็จแล้ว",
+        "dropped": "ไม่ดูแล้ว",
+        "paused": "หยุดชั่วคราว",
+        "planning": "ดูทีหลัง",
+        "repeating": "ดูซ้ำ",
+        "watching": "กำลังดูอยู่"
+      },
+      "mediaStatus": {
+        "finished": "เสร็จแล้ว",
+        "releasing": "กำลังออก",
+        "not_yet_released": "ยังไม่ออก",
+        "cancelled": "ถูกยกเลิก"
+      },
+      "seasons": {
+        "spring": "ฤดูใบไม้ผลิ",
+        "summer": "ฤดูร้อน",
+        "fall": "ฤดูใบไม้ร่วง",
+        "autumn": "ฤดูใบไม้ร่วง",
+        "winter": "ฤดูหนาว"
+      },
+      "settings": {
+        "scoringFormats": {
+          "POINT_100": "100 แต้ม (55 / 100)",
+          "POINT_10_DECIMAL": "10 แต้ม ทศนิยม (5.5 / 10)",
+          "POINT_10": "10 แต้ม (5 / 10)",
+          "POINT_5": "5 แต้ม (3 / 5)",
+          "POINT_3": "3 แต้ม หน้าอีโมจิ"
+        },
+        "titleLanguages": {
+          "ROMAJI": "โรมาจิ (Miira no Kaikata)",
+          "ENGLISH": "อังกฤษ (How to keep a mummy)",
+          "NATIVE": "ภาษาดั้งเดิม (ミイラの飼い方)",
+          "ROMAJI_STYLISED": "โรมาจิแบบ Stylised",
+          "ENGLISH_STYLISED": "อังกฤษแบบ Stylised",
+          "NATIVE_STYLISED": "ภาษาดั้งเดิมแบบ Stylised"
+        }
+      }
+    },
+    "colours": {
+      "automatic": "อัตโนมัติ",
+      "black": "ดำ",
+      "white": "ขาว"
+    },
+    "dates": {
+      "dayMonthNumeric": "วัน/เดือน",
+      "full": "เดือน วัน ปี",
+      "monthAndYear": "เดือน ปี",
+      "yearOnly": "ปี",
+      "dateUnknown": "ไม่ทราบวันที่"
+    },
+    "rules": {
+      "required": "คุณจำเป็นต้องเติมช่องนี้"
+    },
+    "modules": {
+      "aniList": "AniList"
+    },
+    "status": {
+      "all": "ทั้งหมด",
+      "disabled": "ปิด"
+    },
+    "sorting": {
+      "by": {
+        "title": "เรียงตามชื่อ",
+        "score": "เรียงตามคะแนน",
+        "episodes": "เรียงตามตอน"
+      },
+      "direction": {
+        "desc": "เรียงจากบนลงล่าง",
+        "asc": "เรียงจากล่างขึ้นบน"
+      }
+    }
+  },
+  "$vuetify": {
+    "noDataText": "ไม่มีข้อมูล"
+  },
+  "transfer": {
+    "title": "ZeroTwo becomes Mikazuki",
+    "text": "Dear ZeroTwo users\nThe people that follow the Discord server's update information will already know that I already had plans to rename ZeroTwo for some time.\nThe reason of renaming ZeroTwo are simply the new name being more neutral and more comfortable as far as my own personal feelings are concerned.\nUsing a poll on Discord, it was decided, by a majority, to use mikazuki.moe as the new domain.\nStarting 7th April 2020, zerotwo.org will be discontinued and no longer reachable whereas mikazuki.moe is available starting today.\nTo continue using ZeroTwo, now being called Mikazuki, please switch to mikazuki.moe.\nPlease mind that you will have to re-login on mikazuki.moe as you can't transfer data from zerotwo.org to mikazuki.moe.\nAlso your settings you had on zerotwo.org, like the refresh timer interval, have to be reset.\n\nNicoAiko\nMikazuki main developer"
+  },
+  "dataPrivacy": {
+    "headline": "การใช้และเก็บข้อมูล",
+    "acceptAll": "ยอมรับทั้งหมด",
+    "onlyMandatory": "ยอมรับแค่อันที่จำเป็น (ไม่ยอมรับทั้งหมด)"
+  }
+}
