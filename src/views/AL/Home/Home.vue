@@ -14,7 +14,7 @@
 
     <v-container fluid>
       <v-row>
-        <v-col cols="12" md="6" order="2">
+        <v-col cols="12" md="6" order="2" order-md="1">
           <v-row dense>
             <v-col cols="12" v-for="activity in latestActivities" :key="activity.id">
               <activity :activity="activity" @update:activity="onUpdateActivity" @reply="onShowActivityReplyDialog" />
@@ -22,7 +22,7 @@
           </v-row>
         </v-col>
 
-        <v-col cols="12" md="6" order="1">
+        <v-col cols="12" md="6" order="1" order-md="2">
           <statistics />
         </v-col>
       </v-row>
