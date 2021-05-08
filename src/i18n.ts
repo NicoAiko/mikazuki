@@ -29,6 +29,7 @@ export const validLanguageCodes: string[] = [
   'ja',
   'my',
   'pt_BR',
+  'th',
   'tr',
   'zh_CN',
 ];

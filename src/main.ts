@@ -30,7 +30,7 @@ const vuetify = new Vuetify({
 Vue.use(Notification);
 Vue.use(AniListAPI);
 
-if (process.env.VUE_APP_USE_MATOMO === 'true') {
+if (process.env.VUE_APP_USE_MATOMO == 'true') {
   Vue.use(VueMatomo, MatomoOptions);
 }
 

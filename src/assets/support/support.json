@@ -35,6 +35,10 @@
     "icons": ["jp"],
     "name": "絶対幸福主義",
     "message": "Thanks for improving the Japanese localisation."
+  }, {
+    "icons": ["th"],
+    "name": "ValorRye",
+    "message": "Thanks for providing and improving the Thai localisation."
   }],
   "support": [{
     "icon": "coffee",
