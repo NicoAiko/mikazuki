@@ -15,12 +15,9 @@
 
           <v-container v-if="loginFailed">
             <v-alert type="error" text icon="mdi-alert-octagon-outline">
-              <div>The app noticed that you tried to login.</div>
-              <div>It seems that it failed! Please try again.</div>
-              <div>
-                If it still doesn't work, please try to reach out to our Discord or write an issue on our GitHub
-                repository.
-              </div>
+              <div>{{ $t('pages.login.failure.messageOne') }}</div>
+              <div>{{ $t('pages.login.failure.messageTwo') }}</div>
+              <div>{{ $t('pages.login.failure.messageThree') }}</div>
             </v-alert>
           </v-container>
         </v-card-text>

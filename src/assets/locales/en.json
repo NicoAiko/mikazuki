@@ -228,7 +228,12 @@
     },
     "login": {
       "welcome": "Welcome to Mikazuki!",
-      "clickOn": "Click on Login below to navigate to AniList.co and authenticate to use Mikazuki."
+      "clickOn": "Click on Login below to navigate to AniList.co and authenticate to use Mikazuki.",
+      "failure": {
+        "messageOne": "The app noticed that you tried to login.",
+        "messageTwo": "It seems that it failed! Please try again.",
+        "messageThree": "If it still doesn't work, please try to reach out to our Discord or write an issue on our GitHub repository."
+      }
     }
   },
   "routes": {
