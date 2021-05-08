@@ -28,7 +28,7 @@
     "noInformation": "情報がありません。",
     "noSynonyms": "シノニムはありません。",
     "notYetInList": "このメディアはまだ、リストにはありません。",
-    "unauthenticated": "まだログインしませんでした！",
+    "unauthenticated": "まだログインしていません！",
     "unknown": "未知"
   },
   "errors": {
@@ -225,6 +225,10 @@
         "supporters": "サポーター",
         "translators": "翻訳者"
       }
+    },
+    "login": {
+      "welcome": "三日月へようこそ！",
+      "clickOn": "ログインボタンを押して、AniListを使って三日月を認識してください。"
     }
   },
   "routes": {

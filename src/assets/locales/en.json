@@ -225,6 +225,10 @@
         "translators": "Translators",
         "supporters": "Supporters"
       }
+    },
+    "login": {
+      "welcome": "Welcome to Mikazuki!",
+      "clickOn": "Click on Login below to navigate to AniList.co and authenticate to use Mikazuki."
     }
   },
   "routes": {

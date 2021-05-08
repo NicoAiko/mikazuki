@@ -3,9 +3,9 @@
   <v-main>
     <v-container class="fill-height grow justify-center">
       <v-card width="600">
-        <v-card-title>Welcome to Mikazuki!</v-card-title>
+        <v-card-title>{{ $t('pages.login.welcome') }}</v-card-title>
         <v-card-subtitle>{{ $t('alerts.unauthenticated') }}</v-card-subtitle>
-        <v-card-text>Click on Login below to navigate to AniList.co and authenticate to use Mikazuki.</v-card-text>
+        <v-card-text>{{ $t('pages.login.clickOn') }}</v-card-text>
 
         <v-card-text>
           <v-btn color="primary darken-3" block @click="onLoginClick">

@@ -10,7 +10,7 @@
     "fastSearch": "Suchen... ⏎",
     "filter": "Filtern",
     "loading": "Lädt...",
-    "login": "Login",
+    "login": "Einloggen",
     "logout": "Logout",
     "remove": "Entfernen",
     "reset": "Zurücksetzen",
@@ -78,6 +78,10 @@
     }
   },
   "pages": {
+    "login": {
+      "welcome": "Willkommen auf Mikazuki!",
+      "clickOn": "Klicke auf den Einloggen-Button, um Mikazuki über AniList.co zu authentifizieren."
+    },
     "aniList": {
       "home": {
         "activities": {
