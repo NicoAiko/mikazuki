@@ -1,15 +1,17 @@
 import { Component, Provide, Vue } from 'vue-property-decorator';
 import { Getter } from '@/decorators';
 import { IAniListActivity, IAniListSession, IAniListUser } from '@/types';
-import ProfileImage from './ProfileImage/ProfileImage.vue';
 import Activity from './Activity/Activity.vue';
+import ProfileImage from './ProfileImage/ProfileImage.vue';
 import ReplyDialog from './ReplyDialog/ReplyDialog.vue';
+import Statistics from './Statistics/Statistics.vue';
 
 @Component({
   components: {
     Activity,
     ProfileImage,
     ReplyDialog,
+    Statistics,
   },
 })
 export default class ALHome extends Vue {
