@@ -9,7 +9,7 @@
 
     <settings :dialog.sync="settingsDialog" />
 
-    <matomo-dialog v-if="matomoConsent === null" />
+    <matomo-dialog v-if="showMatomo" />
   </v-app>
 </template>
 
@@ -52,6 +52,10 @@ export default class App extends Vue {
   readonly matomoConsent!: boolean | null;
   settingsDialog: boolean = false;
   drawer: boolean = false;
+
+  get showMatomo(): boolean {
+    return this.matomoConsent === null && process.env.VUE_APP_USE_MATOMO == 'true';
+  }
 
   @Watch('isAuthenticated')
   loggedInStateChanged(value: boolean) {
