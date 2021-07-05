@@ -6,6 +6,19 @@ import { AniListMediaStatus, IAniListEntry } from '@/types';
 export default class AniListUserListItem extends Vue {
   @Prop(Object) item!: IAniListEntry;
 
+  get href(): string {
+    if (!this.item) {
+      return '#';
+    }
+
+    return this.$router.resolve({
+      name: 'DetailView',
+      params: {
+        id: this.item.media.id.toString(),
+      },
+    }).href;
+  }
+
   get score(): string {
     return this.item?.score.toFixed(1) ?? 0;
   }
@@ -106,5 +119,34 @@ export default class AniListUserListItem extends Vue {
     }
 
     return (episodesUntilNow / episodes) * 100;
+  }
+
+  get canIncreaseProgress(): boolean {
+    if (!this.item) {
+      return false;
+    }
+
+    const { progress } = this.item;
+    const { episodes } = this.item.media;
+
+    if (episodes && progress === episodes) {
+      return false;
+    }
+
+    return true;
+  }
+
+  get canDecreaseProgress(): boolean {
+    if (!this.item) {
+      return false;
+    }
+
+    const { progress } = this.item;
+
+    if (!progress) {
+      return false;
+    }
+
+    return true;
   }
 }

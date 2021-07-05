@@ -1,6 +1,6 @@
 <script lang="ts" src="./Item.ts" />
 <template>
-  <v-card class="al-item">
+  <v-card class="al-item" :href="href">
     <div class="image cover rounded" :style="`background-image: url(${cover})`"></div>
 
     <div class="details">
@@ -30,6 +30,15 @@
 
       <div class="bar">
         <v-progress-linear class="rounded" :value="userProgress" color="success" />
+      </div>
+
+      <div class="action">
+        <v-btn :disabled="!canDecreaseProgress" icon color="error">
+          <v-icon small>mdi-minus</v-icon>
+        </v-btn>
+        <v-btn :disabled="!canIncreaseProgress" icon color="success">
+          <v-icon small>mdi-plus</v-icon>
+        </v-btn>
       </div>
     </div>
   </v-card>
