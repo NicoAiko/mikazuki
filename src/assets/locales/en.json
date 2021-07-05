@@ -117,7 +117,7 @@
       },
       "list": {
         "airingFinished": "Airing finished",
-        "missingEpisodes": "One episode to watch | {count} episodes to watch",
+        "missingEpisodes": "One episode to watch | {n} episodes to watch",
         "notYetAired": "Not yet aired",
         "nextAiringEpisode": "Episode {0} is airing {1}",
         "scoreDialog": {

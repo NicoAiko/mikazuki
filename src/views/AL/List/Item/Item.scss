@@ -1,0 +1,53 @@
+.al-item {
+  display: grid !important;
+  grid-template-columns: [image] 100px [details] auto;
+  grid-template-areas: 'image details';
+  min-height: 150px;
+  height: 100%;
+}
+
+.image {
+  grid-area: image;
+
+  &.cover {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+  }
+}
+
+.details {
+  grid-area: details;
+  padding: 8px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  grid-template-rows: auto auto 1fr auto auto auto;
+  grid-template-areas:
+    'title title score'
+    'episode episode episode'
+    '. . .'
+    'yet yet yet'
+    'next next next'
+    'bar bar bar';
+
+  & .title {
+    grid-area: title;
+  }
+
+  & .episode {
+    grid-area: episode;
+  }
+
+  & .yet {
+    grid-area: yet;
+  }
+
+  & .next {
+    grid-area: next;
+  }
+
+  & .bar {
+    grid-area: bar;
+  }
+}

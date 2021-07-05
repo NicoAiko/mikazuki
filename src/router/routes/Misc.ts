@@ -1,9 +1,10 @@
-import { RouteConfig } from 'vue-router';
+import { Route, RouteConfig } from 'vue-router';
 import Search from '@/views/Search.vue';
 import Settings from '@/views/Settings.vue';
 // TODO: Replace with async import
 import Login from '@/views/Login/Login.vue';
 import ALHome from '@/views/AL/Home/Home.vue';
+import ALList from '@/views/AL/List/List.vue';
 
 const routes: RouteConfig[] = [
   {
@@ -41,6 +42,22 @@ const routes: RouteConfig[] = [
     path: '/home',
     name: '_Home',
     component: ALHome,
+  },
+  {
+    path: '/list/:status?',
+    name: '_List',
+    component: ALList,
+    props: (route: Route) => {
+      let status = 'CURRENT';
+
+      if (route.params?.status) {
+        status = route.params.status.toUpperCase();
+      }
+
+      return {
+        status,
+      };
+    },
   },
 ];
 
