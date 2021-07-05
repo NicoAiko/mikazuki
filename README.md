@@ -17,7 +17,7 @@ You only have to login to AniList and the fun can begin!
 
 ### Join the Mikazuki Discord Server!
 
-[<img src="https://discordapp.com/assets/e4923594e694a21542a489471ecffa50.svg" width="350">](https://discord.gg/sTpR4Gw)
+[<img src="https://discordapp.com/assets/e4923594e694a21542a489471ecffa50.svg" width="350">](https://discord.gg/mjcrKS2XGg)
 
 ## Wanna support me?
 
