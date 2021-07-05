@@ -43,7 +43,7 @@ export default class AniList extends Vue {
   sortDesc: boolean = false;
 
   created() {
-    this.status = this.$route.meta.status;
+    this.status = this.$route.meta?.status;
   }
 
   onSortClick(position: [number, number]) {

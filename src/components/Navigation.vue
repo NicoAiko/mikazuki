@@ -213,7 +213,7 @@ export default class Navigation extends Vue {
   }
 
   get currentRouteName(): string {
-    const { routeName } = this.$route.meta;
+    const routeName = this.$route.meta?.routeName ?? '';
 
     return this.$t(`routes.${routeName}`) as string;
   }
